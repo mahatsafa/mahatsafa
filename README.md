@@ -14,12 +14,7 @@
 
 💻 Currently learning:
 
-- Cyber Security
-- Linux
-- Networking
-- Python
-- Web Development
-- Git & GitHub
+
 
 I enjoy learning how systems work, solving problems, and building projects that improve my programming and networking skills.
 
@@ -49,23 +44,12 @@ I enjoy learning how systems work, solving problems, and building projects that 
 
 # 📖 Currently Learning
 
-- 🐍 Python Programming
-- 🌐 Networking
-- 🔒 Cyber Security
-- 🐧 Linux Administration
-- ☁️ Git & GitHub
+
 
 ---
 
 # 🎯 Goals
 
-✔ Become a Cyber Security Engineer
-
-✔ Participate in CTF competitions
-
-✔ Build useful software projects
-
-✔ Contribute to Open Source
 
 ---
 
