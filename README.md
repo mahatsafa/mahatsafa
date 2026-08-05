@@ -19,7 +19,7 @@
 
 ### Programming
 <p>
-  <img src="https://skillicons.dev/icons?i=python,html,css,cpp,bash" alt="Programming languages"/>
+  <img src="https://skillicons.dev/icons?i=python,bash" alt="Programming languages"/>
 </p>
 
 ### Operating System
