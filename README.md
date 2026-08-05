@@ -96,6 +96,7 @@ I enjoy learning how systems work, solving problems, and building projects that 
 <p>
 
 <a href="https://github.com/mahatsafa">
+<a href="https://www.linkedin.com/in/gustomahatsafa/">
 <img src="https://skillicons.dev/icons?i=github" />
 </a>
 
