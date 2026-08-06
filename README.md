@@ -8,10 +8,11 @@
 
 ---
 
-## 💫 About Me
+## About Me
 
 🎓 Student at **SMK Telkom Malang**, majoring in **Teknik Komputer dan Jaringan (TKJ)**
 💻 I enjoy learning how systems work, solving problems, and building projects that sharpen my programming and networking skills
+Im Script Kiddie
 
 ---
 
