@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi, I'm Bima Gusto Mahatsafa
+# Hay, I'm Bima Gusto Mahatsafa
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&center=true&vCenter=true&width=600&lines=TKJ+Student;Cyber+Security;Linux+Learner;Python+Developer;Script+Kiddie" alt="Typing SVG"/>
 
