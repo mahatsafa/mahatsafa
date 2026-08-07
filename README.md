@@ -60,7 +60,9 @@
 
 ---
 
+<div align="center">
 ## 🔥 GitHub Streak
+</div>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=mahatsafa&theme=tokyonight&hide_border=true"/>
@@ -68,7 +70,9 @@
 
 ---
 
+<div align="center">
 ## 🐍 Contribution Snake
+</div>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
