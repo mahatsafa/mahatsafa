@@ -2,7 +2,7 @@
 
 # 👋 Hi, I'm Bima Gusto Mahatsafa
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&center=true&vCenter=true&width=600&lines=TKJ+Student;Cyber+Security+Enthusiast;Linux+Learner;Python+Developer;Always+Learning+New+Things" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&center=true&vCenter=true&width=600&lines=TKJ+Student;Cyber+Security;Linux+Learner;Python+Developer;Script+Kiddie" alt="Typing SVG"/>
 
 </div>
 
@@ -12,7 +12,6 @@
 
 🎓 Student at **SMK Telkom Malang**, majoring in **Teknik Komputer dan Jaringan (TKJ)**
 💻 I enjoy learning how systems work, solving problems, and building projects that sharpen my programming and networking skills
-Im Script Kiddie
 
 ---
 
@@ -37,21 +36,18 @@ Im Script Kiddie
 
 ## 📖 Currently Learning
 
-- 🐧 **Linux** — Kali Linux & WSL, mastering the command line
+- 🐧 **Linux** — Kali Linux & WSL, learning the command line
 - 🐍 **Python** — writing clean, readable, and efficient code
 - 🔧 **Git & GitHub** — version control workflows
 - 🌐 **Networking** — protocols, routing, and infrastructure fundamentals
-- 🛡️ **Cyber Security** — web security, digital forensics, and CTF methodology
+- 🛡️ **Cyber Security** — learning
 - 🔍 **Reverse Engineering** — binary analysis basics
 
 ---
 
 ## 🎯 Goals
 
-- 🏆 Actively compete in **CTF (Capture The Flag)** competitions
-- 🔐 Build strong fundamentals in **cyber security**, both offensive and defensive
-- 🖥️ Gain hands-on experience with real-world **networking** infrastructure
-- 📚 Keep building projects that turn theory into practical, working skill
+- I Dont Know
 
 ---
 
