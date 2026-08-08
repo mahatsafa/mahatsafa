@@ -18,11 +18,19 @@
 
 ---
 
+<div align="center">
+  
 ## About Me
 
+</div>
+
+<div align="justify">
+  
 🎓 Student at **SMK Telkom Malang**, majoring in **Teknik Komputer dan Jaringan (TKJ)**
 
 💻 I enjoy learning how systems work, solving problems, and documenting my progress in networking, Linux, and cybersecurity through hands-on practice — especially CTF challenges.
+
+</div>
 
 ---
 
@@ -84,17 +92,20 @@
   <img src="https://img.shields.io/badge/🔐_CTF_Practice_%26_Writeups-181717?style=for-the-badge&logo=github&logoColor=white" height="40">
 </a>
 
-<a href="https://learn.cylabacademy.org/">
-  <img src="https://img.shields.io/badge/🛡️_CyLab_Security_Academy-0B5CAD?style=for-the-badge&logo=hackthebox&logoColor=white" height="40">
-</a>
-
 </div>
 
+<div align="justify">
+  
 A collection of Capture The Flag challenges and writeups from my cybersecurity learning journey.
 
 The repository contains hands-on practice across areas such as **digital forensics, steganography, file analysis, binary/hex inspection, and network analysis**.
 
 I use this repository to document my problem-solving process, tools, commands, and findings while working through CTF challenges.
+
+</div>
+
+---
+
 ## 📜 Certifications
 
 
