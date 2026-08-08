@@ -2,7 +2,7 @@
 
 # Hi, I'm Bima Gusto Mahatsafa
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=500&lines=TKJ+Student;Networking+%26+Cybersecurity+Learner)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=500&lines=TKJ+Student;Networking+%26+Cybersecurity+Learner;Script+Kiddie)](https://git.io/typing-svg)
 
 </div>
 
