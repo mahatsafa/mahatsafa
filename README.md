@@ -94,7 +94,7 @@ I use this repository to document my problem-solving process, tools, commands, a
 
 **Programming**
 
-![Programming](https://skillicons.dev/icons?i=python,bash,html,css,js,c,cpp,arduino)
+![Programming](https://skillicons.dev/icons?i=python,bash,html,css,js,c,cpp,cs,arduino)
 
 **Operating Systems**
 
