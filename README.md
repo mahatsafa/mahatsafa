@@ -43,6 +43,7 @@
 
 **Operating Systems**
 
+![OS](https://skillicons.dev/icons?i=windows,linux,kali)
 ![CentOS](https://img.shields.io/badge/CentOS-262577?style=for-the-badge&logo=centos&logoColor=white)
 
 **Networking & Forensics Tools**
