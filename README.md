@@ -43,10 +43,7 @@
 
 **Operating Systems**
 
-![Windows 11](https://img.shields.io/badge/Windows_11-0078D4?style=for-the-badge&logo=windows&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![CentOS](https://img.shields.io/badge/CentOS-262577?style=for-the-badge&logo=centos&logoColor=white)
+[![OS](https://skillicons.dev/icons?i=windows,linux,kali,centos)](https://skillicons.dev)
 
 **Networking & Forensics Tools**
 
