@@ -43,7 +43,7 @@
 
 **Operating Systems**
 
-![OS](https://skillicons.dev/icons?i=linux,windows,kali)
+![OS](https://skillicons.dev/icons?i=windows,linux,kali)
 
 **Networking & Forensics Tools**
 
@@ -51,7 +51,7 @@
 
 **Dev Workflow**
 
-![Tools](https://skillicons.dev/icons?i=git,github,vscode)
+![Tools](https://skillicons.dev/icons?i=git,github,vscode,powershell)
 
 ---
 
@@ -59,10 +59,12 @@
 
 ### 🔐 [CTF Practice & Writeups](https://github.com/mahatsafa/ctf)
 
-A collection of Capture The Flag challenges I'm working through as part of learning digital forensics, steganography, and basic security analysis — covering topics like file forensics, binary/hex inspection, and network-related puzzles.
+A hands-on collection of Capture The Flag challenges I'm working through to build practical skills in digital forensics, steganography, and basic security analysis — covering file forensics, binary/hex inspection, and network-related puzzles.
 
-<!-- [TODO] Setelah repo ctf punya README dengan tabel kategori/status, ringkas isinya di sini, contoh:
-> 14 challenges solved across forensics, steganography, and misc categories.
+This is where most of my "learning by doing" happens — using tools like `binwalk`, `ExifTool`, `strings`, and `xxd` to investigate files and understand how information can be hidden, extracted, or analyzed.
+
+<!-- [TODO] Setelah repo ctf punya README dengan tabel kategori/status per challenge, ringkas isinya di sini, contoh:
+> Currently working through challenges across forensics, steganography, and misc categories.
 -->
 
 ---
@@ -73,6 +75,8 @@ A collection of Capture The Flag challenges I'm working through as part of learn
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mahatsafa&show_icons=true&theme=tokyonight&hide_border=true)
 
+![GitHub Streak](https://streak-stats.demolab.com/?user=mahatsafa&theme=tokyonight&hide_border=true)
+
 </div>
 
 ---
@@ -81,9 +85,8 @@ A collection of Capture The Flag challenges I'm working through as part of learn
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustomahatsafa/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahatsafa)
-<!-- [TODO] Tambahkan badge Instagram di sini kalau kamu putuskan akunnya relevan ditampilkan:
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/bm.gustom/)
--->
+
+📧 [bmagustom@gmail.com](mailto:bmagustom@gmail.com) &nbsp;·&nbsp; 📸 [Instagram](https://instagram.com/bm.gustom) &nbsp;·&nbsp; ♟️ [Chess.com](https://www.chess.com/member/mahatsafa)
 
 ---
 
