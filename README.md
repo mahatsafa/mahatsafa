@@ -153,6 +153,14 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
 
 <div align="center">
 
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=mahatsafa&layout=compact&theme=tokyonight">
+
+</div>
+
+---
+
+<div align="center">
+
 ## 🌎 Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustomahatsafa/)
