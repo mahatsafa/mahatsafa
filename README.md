@@ -76,9 +76,11 @@ I use this repository to document my problem-solving process, tools, commands, a
 
 ## 📜 Certifications
 
-### Cisco Networking Academy — CCNA: Introduction to Networks
 
 <p align="center">
+  
+### Cisco Networking Academy — CCNA: Introduction to Networks
+
   <a href="LINK_SERTIFIKAT">
     <img src="./assets/ccna-introduction-to-networks.png" width="250" alt="CCNA: Introduction to Networks">
   </a>
