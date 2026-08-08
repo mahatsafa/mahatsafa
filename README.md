@@ -59,7 +59,7 @@
 
 **Programming**
 
-![Programming](https://skillicons.dev/icons?i=python,bash)
+![Programming](https://skillicons.dev/icons?i=python,bash,html,css,js,c,cpp,arduino)
 
 **Operating Systems**
 
@@ -79,6 +79,7 @@
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
 
 </div>
 
