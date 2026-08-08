@@ -83,10 +83,15 @@ This is where most of my "learning by doing" happens — using tools like `binwa
 
 ## 🌎 Connect with Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustomahatsafa/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahatsafa)
+<div align="center">
 
-📧 [bmagustom@gmail.com](mailto:bmagustom@gmail.com) &nbsp;·&nbsp; 📸 [Instagram](https://instagram.com/bm.gustom) &nbsp;·&nbsp; ♟️ [Chess.com](https://www.chess.com/member/mahatsafa)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustomahatsafa/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahatsafa)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bmagustom@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/bm.gustom)
+[![Chess.com](https://img.shields.io/badge/Chess.com-81B64C?style=for-the-badge&logo=chessdotcom&logoColor=white)](https://www.chess.com/member/mahatsafa)
+
+</div>
 
 ---
 
