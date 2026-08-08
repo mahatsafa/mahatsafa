@@ -63,6 +63,29 @@ I enjoy learning how systems work, solving problems, and documenting my progress
 </details>
 
 ---
+<div align="center">
+
+## Featured Project
+
+
+
+<a href="https://github.com/mahatsafa/ctf">
+  <img src="https://img.shields.io/badge/CTF_Practice_%26_Writeups-181717?style=for-the-badge&logo=github&logoColor=white" height="40">
+</a>
+
+</div>
+
+<div align="justify">
+  
+A collection of Capture The Flag challenges and writeups from my cybersecurity learning journey.
+
+The repository contains hands-on practice across areas such as **digital forensics, steganography, file analysis, binary/hex inspection, and network analysis**.
+
+I use this repository to document my problem-solving process, tools, commands, and findings while working through CTF challenges.
+
+</div>
+
+---
 
 
 <div align="center">
@@ -97,32 +120,9 @@ I enjoy learning how systems work, solving problems, and documenting my progress
 
 ---
 
-## 🎯 Featured Project
-
 <div align="center">
 
-<a href="https://github.com/mahatsafa/ctf">
-  <img src="https://img.shields.io/badge/🔐_CTF_Practice_%26_Writeups-181717?style=for-the-badge&logo=github&logoColor=white" height="40">
-</a>
-
-</div>
-
-<div align="justify">
-  
-A collection of Capture The Flag challenges and writeups from my cybersecurity learning journey.
-
-The repository contains hands-on practice across areas such as **digital forensics, steganography, file analysis, binary/hex inspection, and network analysis**.
-
-I use this repository to document my problem-solving process, tools, commands, and findings while working through CTF challenges.
-
-</div>
-
----
-
-## 📜 Certifications
-
-
-<div align="center">
+## Certifications
   
 ### Cisco Networking Academy — CCNA: Introduction to Networks
 
@@ -135,7 +135,9 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
 
 ---
 
-## 📊 GitHub Stats
+<div align="center">
+
+## GitHub Stats
 
 <div align="center">
 
@@ -147,9 +149,9 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
 
 ---
 
-## 🌎 Connect with Me
-
 <div align="center">
+
+## 🌎 Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustomahatsafa/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahatsafa)
