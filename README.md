@@ -18,40 +18,52 @@
 
 ---
 
-<div align="center">
-  
-## About Me
+<details>
+<summary align="center">About Me</summary>
 
-</div>
+<br>
 
 <div align="justify">
-  
-🎓 Student at **SMK Telkom Malang**, majoring in **Teknik Komputer dan Jaringan (TKJ)**
 
-💻 I enjoy learning how systems work, solving problems, and documenting my progress in networking, Linux, and cybersecurity through hands-on practice — especially CTF challenges.
+Student at **SMK Telkom Malang**, majoring in **Teknik Komputer dan Jaringan (TKJ)**.
+
+I enjoy learning how systems work, solving problems, and documenting my progress in networking, Linux, and cybersecurity through hands-on practice, especially CTF challenges.
 
 </div>
+
+</details>
 
 ---
 
-## 📖 Currently Learning
+<details>
+<summary align="center">Currently Learning</summary>
 
-**Linux & Networking**
+<br>
+
+<div align="justify">
+
+### Linux & Networking
 - Linux command line (Kali Linux, WSL)
 - TCP/IP, IPv4/IPv6, Subnetting
 - Switching & Routing fundamentals
 
-**Programming & Tools**
-- Python — writing clean, readable code
-- Git & GitHub — version control workflows
+### Programming & Tools
+- Python
+- Git & GitHub
+- Visual Studio Code
 
-**Security & Forensics**
+### Security & Forensics
 - Cybersecurity fundamentals
 - CTF (Capture The Flag)
 - Digital forensics
 - Basic reverse engineering / binary analysis
 
+</div>
+
+</details>
+
 ---
+
 
 <div align="center">
   
