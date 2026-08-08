@@ -1,1 +1,33 @@
+name: Update WakaTime Stats
 
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  wakatime:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Generate WakaTime card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: wakatime
+          options: username=mahatsafa&layout=compact
+          path: profile/wakatime.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit WakaTime card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/wakatime.svg
+          git diff --cached --quiet || git commit -m "chore: update WakaTime stats"
+          git push
