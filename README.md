@@ -66,13 +66,11 @@
 
 ### 🔐 [CTF Practice & Writeups](https://github.com/mahatsafa/ctf)
 
-A hands-on collection of Capture The Flag challenges I'm working through to build practical skills in digital forensics, steganography, and basic security analysis — covering file forensics, binary/hex inspection, and network-related puzzles.
+A collection of Capture The Flag challenges and writeups from my cybersecurity learning journey.
 
-This is where most of my "learning by doing" happens — using tools like `binwalk`, `ExifTool`, `strings`, and `xxd` to investigate files and understand how information can be hidden, extracted, or analyzed.
+The repository contains hands-on practice across areas such as **digital forensics, steganography, file analysis, binary/hex inspection, and network analysis**.
 
-<!-- [TODO] Setelah repo ctf punya README dengan tabel kategori/status per challenge, ringkas isinya di sini, contoh:
-> Currently working through challenges across forensics, steganography, and misc categories.
--->
+I use this repository to document my problem-solving process, tools, commands, and findings while working through CTF challenges.
 
 ---
 
@@ -80,9 +78,13 @@ This is where most of my "learning by doing" happens — using tools like `binwa
 
 ### Cisco Networking Academy — CCNA: Introduction to Networks
 
-[![CCNA: Introduction to Networks](./assets/ccna-introduction-to-networks.png)](https://www.credly.com/badges/4a252ebe-99b7-4757-a1e2-e7c6456325c0/public_url)
+<p align="center">
+  <a href="LINK_SERTIFIKAT">
+    <img src="./assets/ccna-introduction-to-networks.png" width="250" alt="CCNA: Introduction to Networks">
+  </a>
+</p>
 
-Completed **CCNA: Introduction to Networks**, covering fundamental networking concepts including network architecture, protocols, IP addressing, and basic networking technologies.
+Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, covering fundamental networking concepts and technologies.
 
 ---
 
