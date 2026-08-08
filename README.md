@@ -77,14 +77,14 @@ I use this repository to document my problem-solving process, tools, commands, a
 ## 📜 Certifications
 
 
-<p align="center">
+<div align="center">
   
 ### Cisco Networking Academy — CCNA: Introduction to Networks
 
-  <a href="LINK_SERTIFIKAT">
-    <img src="./assets/ccna-introduction-to-networks.png" width="250" alt="CCNA: Introduction to Networks">
+  <a href="https://www.credly.com/badges/4a252ebe-99b7-4757-a1e2-e7c6456325c0/public_url">
+    <img src="./assets/ccna-introduction-to-networks.png" width="200" alt="CCNA: Introduction to Networks">
   </a>
-</p>
+</div>
 
 Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, covering fundamental networking concepts and technologies.
 
