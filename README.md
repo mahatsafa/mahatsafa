@@ -76,6 +76,16 @@ This is where most of my "learning by doing" happens — using tools like `binwa
 
 ---
 
+## 📜 Certifications
+
+### Cisco Networking Academy — CCNA: Introduction to Networks
+
+[![CCNA: Introduction to Networks](./assets/ccna-introduction-to-networks.png)](https://www.credly.com/badges/4a252ebe-99b7-4757-a1e2-e7c6456325c0/public_url)
+
+Completed **CCNA: Introduction to Networks**, covering fundamental networking concepts including network architecture, protocols, IP addressing, and basic networking technologies.
+
+---
+
 ## 📊 GitHub Stats
 
 <div align="center">
