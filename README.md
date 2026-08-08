@@ -151,11 +151,11 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
 
 ---
 
-<div align="center">
+<h2 align="center">⌨️ Coding Activity</h2>
 
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=mahatsafa&layout=compact&theme=tokyonight">
-
-</div>
+<p align="center">
+  <img src="./profile/wakatime.svg" alt="WakaTime Coding Activity">
+</p>
 
 ---
 
