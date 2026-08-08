@@ -72,6 +72,8 @@
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 
+</div>
+
 ---
 
 ## 🎯 Featured Project
@@ -79,7 +81,11 @@
 <div align="center">
 
 <a href="https://github.com/mahatsafa/ctf">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=mahatsafa&repo=ctf&theme=github_dark" />
+  <img src="https://img.shields.io/badge/🔐_CTF_Practice_%26_Writeups-181717?style=for-the-badge&logo=github&logoColor=white" height="40">
+</a>
+
+<a href="https://learn.cylabacademy.org/">
+  <img src="https://img.shields.io/badge/🛡️_CyLab_Security_Academy-0B5CAD?style=for-the-badge&logo=hackthebox&logoColor=white" height="40">
 </a>
 
 </div>
@@ -89,9 +95,6 @@ A collection of Capture The Flag challenges and writeups from my cybersecurity l
 The repository contains hands-on practice across areas such as **digital forensics, steganography, file analysis, binary/hex inspection, and network analysis**.
 
 I use this repository to document my problem-solving process, tools, commands, and findings while working through CTF challenges.
-
----
-
 ## 📜 Certifications
 
 
