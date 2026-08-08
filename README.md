@@ -1,5 +1,15 @@
 <div align="center">
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustomahatsafa/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahatsafa)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bmagustom@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/bm.gustom)
+[![Chess.com](https://img.shields.io/badge/Chess.com-81B64C?style=for-the-badge&logo=chessdotcom&logoColor=white)](https://www.chess.com/member/mahatsafa)
+
+</div>
+
+<div align="center">
+
 # Hi, I'm Bima Gusto Mahatsafa
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=500&lines=TKJ+Student;Networking+%26+Cybersecurity+Learner;Script+Kiddie)](https://git.io/typing-svg)
@@ -35,7 +45,9 @@
 
 ---
 
-## 🚀 Tech Stack
+<div align="center">
+  
+## Tech Stack
 
 **Programming**
 
@@ -64,7 +76,13 @@
 
 ## 🎯 Featured Project
 
-### 🔐 [CTF Practice & Writeups](https://github.com/mahatsafa/ctf)
+<div align="center">
+
+<a href="https://github.com/mahatsafa/ctf">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=mahatsafa&repo=ctf&theme=github_dark" />
+</a>
+
+</div>
 
 A collection of Capture The Flag challenges and writeups from my cybersecurity learning journey.
 
