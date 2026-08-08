@@ -19,7 +19,7 @@
 ---
 
 <details>
-<summary align="center">About Me</summary>
+<summary align="center"><strong>About Me</strong></summary>
 
 <br>
 
@@ -36,7 +36,7 @@ I enjoy learning how systems work, solving problems, and documenting my progress
 ---
 
 <details>
-<summary align="center">Currently Learning</summary>
+<summary align="center"><strong>Currently Learning</strong></summary>
 
 <br>
 
@@ -122,22 +122,37 @@ I use this repository to document my problem-solving process, tools, commands, a
 
 <div align="center">
 
-## Certifications
-  
-### Cisco Networking Academy — CCNA: Introduction to Networks
+<details>
+<summary><strong>Certifications</strong></summary>
 
-  <a href="https://www.credly.com/badges/4a252ebe-99b7-4757-a1e2-e7c6456325c0/public_url">
-    <img src="./assets/ccna-introduction-to-networks.png" width="150" alt="CCNA: Introduction to Networks">
-  </a>
-</div>
+<br>
+
+<strong>Cisco Networking Academy — CCNA: Introduction to Networks</strong>
+
+<br><br>
+
+<a href="https://www.credly.com/badges/4a252ebe-99b7-4757-a1e2-e7c6456325c0/public_url">
+  <img src="./assets/ccna-introduction-to-networks.png" width="150" alt="CCNA: Introduction to Networks">
+</a>
+
+<br><br>
+
+<div align="justify">
 
 Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, covering fundamental networking concepts and technologies.
+
+</div>
+
+</details>
+
+</div>
 
 ---
 
 <div align="center">
 
-## GitHub Stats
+<details>
+<summary align="center"><strong>GitHub Stats</strong></summary>
 
 <div align="center">
 
@@ -145,17 +160,22 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=mahatsafa&theme=tokyonight&hide_border=true)
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=claritys11&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=94a3b8&line=64748b&point=cbd5e1" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mahatsafa&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=94a3b8&line=64748b&point=cbd5e1" />
 
 </div>
+</details>
 
 ---
 
-<h2 align="center">⌨️ Coding Activity</h2>
+<details>
+  
+<summary align="center"><strong>Coding Activity</strong></summary>
 
 <p align="center">
   <img src="./profile/wakatime.svg" alt="WakaTime Coding Activity">
 </p>
+
+</details>
 
 ---
 
