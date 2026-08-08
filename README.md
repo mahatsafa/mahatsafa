@@ -17,52 +17,6 @@
 </div>
 
 ---
-
-<details>
-<summary align="center"><strong>About Me</strong></summary>
-
-<br>
-
-<div align="justify">
-
-Student at **SMK Telkom Malang**, majoring in **Teknik Komputer dan Jaringan (TKJ)**.
-
-I enjoy learning how systems work, solving problems, and documenting my progress in networking, Linux, and cybersecurity through hands-on practice, especially CTF challenges.
-
-</div>
-
-</details>
-
----
-
-<details>
-<summary align="center"><strong>Currently Learning</strong></summary>
-
-<br>
-
-<div align="justify">
-
-### Linux & Networking
-- Linux command line (Kali Linux, WSL)
-- TCP/IP, IPv4/IPv6, Subnetting
-- Switching & Routing fundamentals
-
-### Programming & Tools
-- Python
-- Git & GitHub
-- Visual Studio Code
-
-### Security & Forensics
-- Cybersecurity fundamentals
-- CTF (Capture The Flag)
-- Digital forensics
-- Basic reverse engineering / binary analysis
-
-</div>
-
-</details>
-
----
 <div align="center">
 
 ## Featured Project
@@ -117,6 +71,52 @@ I use this repository to document my problem-solving process, tools, commands, a
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
 
 </div>
+
+---
+
+<details>
+<summary align="center"><strong>About Me</strong></summary>
+
+<br>
+
+<div align="justify">
+
+Student at **SMK Telkom Malang**, majoring in **Teknik Komputer dan Jaringan (TKJ)**.
+
+I enjoy learning how systems work, solving problems, and documenting my progress in networking, Linux, and cybersecurity through hands-on practice, especially CTF challenges.
+
+</div>
+
+</details>
+
+---
+
+<details>
+<summary align="center"><strong>Currently Learning</strong></summary>
+
+<br>
+
+<div align="justify">
+
+### Linux & Networking
+- Linux command line (Kali Linux, WSL)
+- TCP/IP, IPv4/IPv6, Subnetting
+- Switching & Routing fundamentals
+
+### Programming & Tools
+- Python
+- Git & GitHub
+- Visual Studio Code
+
+### Security & Forensics
+- Cybersecurity fundamentals
+- CTF (Capture The Flag)
+- Digital forensics
+- Basic reverse engineering / binary analysis
+
+</div>
+
+</details>
 
 ---
 
@@ -181,7 +181,7 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
 
 <div align="center">
 
-## 🌎 Connect with Me
+Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustomahatsafa/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahatsafa)
