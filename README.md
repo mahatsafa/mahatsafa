@@ -159,6 +159,10 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/bm.gustom)
 [![Chess.com](https://img.shields.io/badge/Chess.com-81B64C?style=for-the-badge&logo=chessdotcom&logoColor=white)](https://www.chess.com/member/mahatsafa)
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=mahatsafa&label=Profile%20Views&style=for-the-badge" alt="Profile Views">
+</p>
+
 </div>
 
 ---
