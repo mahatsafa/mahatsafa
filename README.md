@@ -127,7 +127,7 @@ I use this repository to document my problem-solving process, tools, commands, a
 ### Cisco Networking Academy — CCNA: Introduction to Networks
 
   <a href="https://www.credly.com/badges/4a252ebe-99b7-4757-a1e2-e7c6456325c0/public_url">
-    <img src="./assets/ccna-introduction-to-networks.png" width="200" alt="CCNA: Introduction to Networks">
+    <img src="./assets/ccna-introduction-to-networks.png" width="150" alt="CCNA: Introduction to Networks">
   </a>
 </div>
 
