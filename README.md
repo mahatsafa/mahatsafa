@@ -43,8 +43,10 @@
 
 **Operating Systems**
 
-![OS](https://skillicons.dev/icons?i=windows,linux,kali)
-![CentOS](https://img.shields.io/badge/CentOS-262577?style=for-the-badge&logo=centos&logoColor=white)
+<p>
+  <img src="https://skillicons.dev/icons?i=windows,linux,kali" height="48" alt="Operating Systems">
+  <img src="https://cdn.simpleicons.org/centos/262577" height="48" width="48" alt="CentOS">
+</p>
 
 **Networking & Forensics Tools**
 
