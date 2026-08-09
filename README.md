@@ -179,12 +179,13 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
   <a href="https://wakatime.com">
     <img src="./profile/wakatime1.svg">
   </a>
+
   <br><br>
+
   <a href="https://wakatime.com">
     <img src="./profile/wakatime.svg">
   </a>
 </p>
-
 
 </details>
 
