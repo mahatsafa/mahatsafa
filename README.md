@@ -171,21 +171,25 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
   
 <summary align="center"><strong>Coding Activity</strong></summary>
 
-<br>
-
-<h3 align="center">WakaTime</h3>
-
+<p align="center">By <a href="https://wakatime.com">WakaTime</a></p>
 <p align="center">
-  <a href="https://wakatime.com">
-    <img src="./profile/wakatime1.svg">
+<!--   <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api?username=fardhanardhi&show_icons=true&bg_color=0d1117&text_color=FFF&border_color=444" height="165">
+  </a> -->
+  
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="./profile/wakatime-top-3.svg">
   </a>
-
-  <br><br>
-
-  <a href="https://wakatime.com">
-    <img src="./profile/wakatime.svg">
+  <br>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="./profile/wakatime-all.svg">
   </a>
+  <br>
+<!--   <a href="https://github.com/Ashutosh00710/github-readme-activity-graph">
+    <img src="https://activity-graph.herokuapp.com/graph?username=fardhanardhi&theme=react-dark&hide_border=true">
+  </a> -->
 </p>
+
 
 </details>
 
