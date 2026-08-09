@@ -22,14 +22,26 @@ jobs:
           options: username=${{ github.repository_owner }}&bg_color=ffffff00&text_color=dedeff&border_color=fff&langs_count=3&hide_title=true
           path: profile/wakatime-top-3.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
 
       - name: Generate wakatime all card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: wakatime
-          options: username=${{ github.repository_owner }}&bg_color=ffffff00&text_color=dedeff&border_color=fff&layout=compact&custom_title=%20Languages%20that%20I've%20ever%20touched
+          options: username=${{ github.repository_owner }}&bg_color=ffffff00&text_color=dedeff&border_color=fff&layout=compact&custom_title=%20Languages%20that%20I%27ve%20ever%20touched
           path: profile/wakatime-all.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Diagnostic - cek isi SVG hasil generate
+        run: |
+          echo "== Ukuran file =="
+          ls -la profile/wakatime-top-3.svg profile/wakatime-all.svg
+          echo "== 500 karakter pertama wakatime-top-3.svg =="
+          head -c 500 profile/wakatime-top-3.svg
+          echo ""
+          echo "== Cek apakah ada teks error di dalam SVG =="
+          grep -i "error\|could not resolve" profile/*.svg || echo "Tidak ada teks error ditemukan"
 
       - name: Commit cards
         run: |
