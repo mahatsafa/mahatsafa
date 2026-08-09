@@ -171,9 +171,20 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
   
 <summary align="center"><strong>Coding Activity</strong></summary>
 
+<br>
+
+<h3 align="center">WakaTime</h3>
+
 <p align="center">
-  <img src="./profile/wakatime.svg" alt="WakaTime Coding Activity">
+  <a href="https://wakatime.com">
+    <img src="./profile/wakatime1.svg">
+  </a>
+  <br><br>
+  <a href="https://wakatime.com">
+    <img src="./profile/wakatime.svg">
+  </a>
 </p>
+
 
 </details>
 
