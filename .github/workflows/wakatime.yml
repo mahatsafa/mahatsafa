@@ -1,41 +1,40 @@
-name: Update WakaTime Stats
+name: Update README cards
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *" # Runs once daily at midnight
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  wakatime:
+  build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v6
+      - uses: actions/checkout@v6
 
-      - name: Generate WakaTime top 3 card
-        uses: stats-organization/github-readme-stats-action@v2
+      - name: Generate wakatime top 3 card
+        uses: readme-tools/github-readme-stats-action@v1
         with:
           card: wakatime
-          options: username=mahatsafa&langs_count=3
-          path: profile/wakatime1.svg
+          options: username=${{ github.repository_owner }}&bg_color=ffffff00&text_color=dedeff&border_color=fff&langs_count=3&hide_title=true
+          path: profile/wakatime-top-3.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate WakaTime all languages card
-        uses: stats-organization/github-readme-stats-action@v2
+      - name: Generate wakatime all card
+        uses: readme-tools/github-readme-stats-action@v1
         with:
           card: wakatime
-          options: username=mahatsafa&layout=compact&custom_title=Languages%20that%20I've%20ever%20touched
-          path: profile/wakatime.svg
+          options: username=${{ github.repository_owner }}&bg_color=ffffff00&text_color=dedeff&border_color=fff&layout=compact&custom_title=%20Languages%20that%20I've%20ever%20touched
+          path: profile/wakatime-all.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit WakaTime cards
+      - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/*.svg
-          git diff --cached --quiet || git commit -m "chore: update WakaTime stats"
+          git commit -m "Update README cards" || exit 0
           git push
