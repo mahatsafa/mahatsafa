@@ -5,40 +5,47 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
   wakatime:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Generate WakaTime Top 3
+      - name: Generate WakaTime top languages
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: wakatime
-          options: username=mahatsafa&langs_count=3&hide_title=true&bg_color=0d1117&text_color=dedeff&border_color=30363d
-          path: profile/wakatime-top-3.svg
+          options: username=mahatsafa&layout=compact&langs_count=3
+          path: profile/wakatime1.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate WakaTime All Languages
+      - name: Generate WakaTime all languages
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: wakatime
-          options: username=mahatsafa&layout=compact&custom_title=Languages%20that%20I've%20ever%20touched&bg_color=0d1117&text_color=dedeff&border_color=30363d
-          path: profile/wakatime-all.svg
+          options: username=mahatsafa&layout=compact
+          path: profile/wakatime.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check generated files
+        run: |
+          echo "=== wakatime1.svg ==="
+          wc -c profile/wakatime1.svg
+          head -5 profile/wakatime1.svg
+
+          echo "=== wakatime.svg ==="
+          wc -c profile/wakatime.svg
+          head -5 profile/wakatime.svg
 
       - name: Commit WakaTime cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add profile/*.svg
-
           git diff --cached --quiet || git commit -m "chore: update WakaTime stats"
-
           git push
