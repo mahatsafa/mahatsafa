@@ -19,7 +19,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: wakatime
-          options: username=${{ github.repository_owner }}&bg_color=ffffff00&text_color=dedeff&border_color=fff&langs_count=3&hide_title=true
+          options: username=df780e5a-a48f-42f3-82bb-25736a3f0c57&bg_color=ffffff00&text_color=dedeff&border_color=fff&langs_count=3&hide_title=true
           path: profile/wakatime-top-3.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
@@ -28,7 +28,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: wakatime
-          options: username=${{ github.repository_owner }}&bg_color=ffffff00&text_color=dedeff&border_color=fff&layout=compact&custom_title=%20Languages%20that%20I%27ve%20ever%20touched
+          options: username=df780e5a-a48f-42f3-82bb-25736a3f0c57&bg_color=ffffff00&text_color=dedeff&border_color=fff&layout=compact&custom_title=%20Languages%20that%20I%27ve%20ever%20touched
           path: profile/wakatime-all.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
