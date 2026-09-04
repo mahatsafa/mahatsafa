@@ -169,7 +169,8 @@ def main():
     data = fetch_stats()
     os.makedirs(OUT_DIR, exist_ok=True)
 
-    range_label = data.get("range", {}).get("text", RANGE)
+    range_field = data.get("range", RANGE)
+    range_label = range_field.get("text", RANGE) if isinstance(range_field, dict) else (range_field or RANGE)
 
     top3_svg = build_card(data, top_n=3, footer_text=f"Top 3 · {range_label}")
     with open(os.path.join(OUT_DIR, "wakatime-top-3.svg"), "w", encoding="utf-8") as f:
