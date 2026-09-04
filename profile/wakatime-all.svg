@@ -1,7 +1,7 @@
 <svg width="990" height="350" viewBox="0 0 990 350" xmlns="http://www.w3.org/2000/svg">
   <rect x="0" y="0" width="990" height="350" rx="10" fill="#0d1117"/>
   <rect x="14" y="8" width="230" height="312" rx="8" fill="none" stroke="#30363d" stroke-width="1"/><rect x="258" y="8" width="230" height="312" rx="8" fill="none" stroke="#30363d" stroke-width="1"/><rect x="502" y="8" width="230" height="312" rx="8" fill="none" stroke="#30363d" stroke-width="1"/><rect x="746" y="8" width="230" height="312" rx="8" fill="none" stroke="#30363d" stroke-width="1"/>
-  <text x="28" y="28" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" font-weight="700" fill="#58a6ff">💻 LANGUAGES</text>
+  <text x="28" y="28" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" font-weight="700" fill="#58a6ff">LANGUAGES</text>
 <text x="28" y="48" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">HTML</text>
 <text x="230" y="48" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">37.90%</text>
 <rect x="28" y="54" width="202" height="6" rx="3" fill="#21262d"/>
@@ -31,7 +31,7 @@
 <text x="230" y="268" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">1.87%</text>
 <rect x="28" y="274" width="202" height="6" rx="3" fill="#21262d"/>
 <rect x="28" y="274" width="3.8" height="6" rx="3" fill="#58a6ff"/>
-<text x="28" y="292" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">7 mins</text><text x="272" y="28" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" font-weight="700" fill="#58a6ff">🖥️ EDITORS</text>
+<text x="28" y="292" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">7 mins</text><text x="272" y="28" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" font-weight="700" fill="#58a6ff">EDITORS</text>
 <text x="272" y="48" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">VS Code</text>
 <text x="474" y="48" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">99.25%</text>
 <rect x="272" y="54" width="202" height="6" rx="3" fill="#21262d"/>
@@ -41,7 +41,7 @@
 <text x="474" y="92" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">0.75%</text>
 <rect x="272" y="98" width="202" height="6" rx="3" fill="#21262d"/>
 <rect x="272" y="98" width="2.0" height="6" rx="3" fill="#58a6ff"/>
-<text x="272" y="116" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">3 mins</text><text x="516" y="28" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" font-weight="700" fill="#58a6ff">⚙️ OS</text>
+<text x="272" y="116" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">3 mins</text><text x="516" y="28" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" font-weight="700" fill="#58a6ff">OS</text>
 <text x="516" y="48" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Windows</text>
 <text x="718" y="48" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">99.25%</text>
 <rect x="516" y="54" width="202" height="6" rx="3" fill="#21262d"/>
@@ -51,7 +51,7 @@
 <text x="718" y="92" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">0.75%</text>
 <rect x="516" y="98" width="202" height="6" rx="3" fill="#21262d"/>
 <rect x="516" y="98" width="2.0" height="6" rx="3" fill="#58a6ff"/>
-<text x="516" y="116" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">3 mins</text><text x="760" y="28" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" font-weight="700" fill="#58a6ff">📊 CATEGORIES</text>
+<text x="516" y="116" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">3 mins</text><text x="760" y="28" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" font-weight="700" fill="#58a6ff">CATEGORIES</text>
 <text x="760" y="48" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Coding</text>
 <text x="962" y="48" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">93.61%</text>
 <rect x="760" y="54" width="202" height="6" rx="3" fill="#21262d"/>
