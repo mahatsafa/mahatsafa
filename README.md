@@ -53,7 +53,7 @@ I use this repository to document my problem-solving process, tools, commands, a
 **Operating Systems**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=windows,linux,kali" height="48" alt="Operating Systems">
+  <img src="https://skillicons.dev/icons?i=windows,linux,kali,debian" height="48" alt="Operating Systems">
   <img src="https://cdn.simpleicons.org/centos/262577" height="48" width="48" alt="CentOS">
 </p>
 
