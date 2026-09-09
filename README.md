@@ -163,7 +163,7 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
 </tr>
 <div align="center">
 
-<details>
+
   
 ### GitHub Stats
 
@@ -183,9 +183,9 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
 
 <div align="center">
 
-</details>
 
-<details>
+
+
   
 ### Coding Activity
 
@@ -201,7 +201,7 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
 
 </div>
 
-</details>
+
 ---
 
 <div align="center">
