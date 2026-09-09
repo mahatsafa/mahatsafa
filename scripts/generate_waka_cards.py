@@ -1,20 +1,19 @@
 #!/usr/bin/env python3
 """
-Generates two SVG cards from WakaTime stats, both narrow single-column
-layout (Languages / Editors / OS / Categories stacked vertically) sized
-to sit side-by-side with the GitHub Stats column in a 2-col README table.
+Generates two SVG cards from WakaTime stats, wide 4-column layout
+(Languages / Editors / OS / Categories side by side) for full-width
+display in the README.
 
-  profile/wakatime-top-3.svg  -> top 3 items each section
-  profile/wakatime-all.svg    -> top N items each section (default 6)
+  profile/wakatime-top-3.svg  -> top 3 items each column
+  profile/wakatime-all.svg    -> top N items each column (default 6)
 
 Env vars:
   WAKATIME_API_KEY   (required)
   WAKA_RANGE         (optional) last_7_days | last_30_days | last_6_months
                        | last_year | all_time   (default: all_time)
-  WAKA_ALL_TOP_N     (optional) items per section on the "all" card
+  WAKA_ALL_TOP_N     (optional) items per column on the "all" card
                        (default: 6)
   WAKA_OUT_DIR       (optional) output directory (default: profile)
-  WAKA_CARD_WIDTH    (optional) card width in px (default: 440)
 """
 
 import base64
@@ -28,11 +27,10 @@ API_KEY = os.environ.get("WAKATIME_API_KEY")
 RANGE = os.environ.get("WAKA_RANGE", "all_time")
 ALL_TOP_N = int(os.environ.get("WAKA_ALL_TOP_N", "6"))
 OUT_DIR = os.environ.get("WAKA_OUT_DIR", "profile")
-CARD_WIDTH = int(os.environ.get("WAKA_CARD_WIDTH", "440"))
 
 API_URL = f"https://wakatime.com/api/v1/users/current/stats/{RANGE}"
 
-# ---- Theme (unchanged from before) --------------------------------------
+# ---- Theme ----------------------------------------------------------------
 BG = "#0d1117"
 BORDER = "#30363d"
 TITLE_COLOR = "#58a6ff"
@@ -42,7 +40,7 @@ BAR_BG = "#21262d"
 BAR_FILL = "#58a6ff"
 FONT = "Segoe UI, Ubuntu, sans-serif"
 
-SECTIONS = [
+COLUMNS = [
     ("languages", "💻 LANGUAGES"),
     ("editors", "🖥️ EDITORS"),
     ("operating_systems", "⚙️ OS"),
@@ -79,77 +77,78 @@ def esc(s):
     return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def render_section(y_top, width, title, items):
-    """One boxed section, stacked vertically. Returns (svg_snippet, new_y)."""
-    pad = 14
-    row_h = 34
-    bar_w = width - pad * 2
-
+def render_column(x, width, title, items):
     parts = [
-        f'<text x="{pad + 6}" y="{y_top + 24}" font-family="{FONT}" font-size="13" '
+        f'<text x="{x + 14}" y="28" font-family="{FONT}" font-size="13" '
         f'font-weight="700" fill="{TITLE_COLOR}">{esc(title)}</text>'
     ]
+    row_h = 34
+    bar_w = width - 28
+    y = 48
 
-    y = y_top + 44
     if not items:
         parts.append(
-            f'<text x="{pad + 6}" y="{y}" font-family="{FONT}" font-size="11" '
+            f'<text x="{x + 14}" y="{y}" font-family="{FONT}" font-size="11" '
             f'fill="{MUTED_COLOR}">No data</text>'
         )
-        y += row_h
-    else:
-        for item in items:
-            name = item.get("name", "Unknown")
-            percent = float(item.get("percent", 0))
-            text = item.get("text", "")
-            bar_y = y + 6
-            filled_w = max(2, bar_w * percent / 100)
+        return "\n".join(parts), y + row_h
 
-            parts.append(
-                f'<text x="{pad + 6}" y="{y}" font-family="{FONT}" font-size="11" '
-                f'fill="{TEXT_COLOR}">{esc(name)}</text>'
-            )
-            parts.append(
-                f'<text x="{width - pad - 6}" y="{y}" text-anchor="end" '
-                f'font-family="{FONT}" font-size="11" fill="{MUTED_COLOR}">{percent:.2f}%</text>'
-            )
-            parts.append(
-                f'<rect x="{pad + 6}" y="{bar_y}" width="{bar_w - 12}" height="6" rx="3" fill="{BAR_BG}"/>'
-            )
-            parts.append(
-                f'<rect x="{pad + 6}" y="{bar_y}" width="{max(2, filled_w - 12):.1f}" height="6" '
-                f'rx="3" fill="{BAR_FILL}"/>'
-            )
-            parts.append(
-                f'<text x="{pad + 6}" y="{bar_y + 18}" font-family="{FONT}" font-size="9" '
-                f'fill="{MUTED_COLOR}">{esc(text)}</text>'
-            )
-            y += row_h + 10
+    for item in items:
+        name = item.get("name", "Unknown")
+        percent = float(item.get("percent", 0))
+        text = item.get("text", "")
+        bar_y = y + 6
+        filled_w = max(2, bar_w * percent / 100)
 
-    box_bottom = y + 6
-    box = (
-        f'<rect x="0" y="{y_top}" width="{width}" height="{box_bottom - y_top}" '
-        f'rx="8" fill="none" stroke="{BORDER}" stroke-width="1"/>'
-    )
-    return box + "\n" + "\n".join(parts), box_bottom
+        parts.append(
+            f'<text x="{x + 14}" y="{y}" font-family="{FONT}" font-size="11" '
+            f'fill="{TEXT_COLOR}">{esc(name)}</text>'
+        )
+        parts.append(
+            f'<text x="{x + width - 14}" y="{y}" text-anchor="end" '
+            f'font-family="{FONT}" font-size="11" fill="{MUTED_COLOR}">{percent:.2f}%</text>'
+        )
+        parts.append(
+            f'<rect x="{x + 14}" y="{bar_y}" width="{bar_w}" height="6" rx="3" fill="{BAR_BG}"/>'
+        )
+        parts.append(
+            f'<rect x="{x + 14}" y="{bar_y}" width="{filled_w:.1f}" height="6" rx="3" fill="{BAR_FILL}"/>'
+        )
+        parts.append(
+            f'<text x="{x + 14}" y="{bar_y + 18}" font-family="{FONT}" font-size="9" '
+            f'fill="{MUTED_COLOR}">{esc(text)}</text>'
+        )
+        y += row_h + 10
+
+    return "\n".join(parts), y
 
 
 def build_card(data, top_n, footer_text=None):
-    width = CARD_WIDTH
+    col_width = 230
     gap = 14
-    outer_pad = 10
+    padding = 14
+    n_cols = len(COLUMNS)
+    width = padding * 2 + col_width * n_cols + gap * (n_cols - 1)
 
-    y = outer_pad
-    section_svgs = []
-    for key, title in SECTIONS:
+    col_svgs = []
+    max_bottom = 0
+    for i, (key, title) in enumerate(COLUMNS):
+        x = padding + i * (col_width + gap)
         items = top_items(data, key, top_n)
-        svg, y = render_section(y, width - outer_pad * 2, title, items)
-        # shift each section's local x=0 origin to sit inside outer padding
-        section_svgs.append(f'<g transform="translate({outer_pad},0)">{svg}</g>')
-        y += gap
+        svg, bottom = render_column(x, col_width, title, items)
+        col_svgs.append(svg)
+        max_bottom = max(max_bottom, bottom)
 
-    footer_h = 24 if footer_text else 0
-    height = y - gap + outer_pad + footer_h
+    footer_h = 22 if footer_text else 0
+    height = max_bottom + 16 + footer_h
+
+    boxes = []
+    for i in range(n_cols):
+        x = padding + i * (col_width + gap)
+        boxes.append(
+            f'<rect x="{x}" y="8" width="{col_width}" height="{height - 16 - footer_h}" '
+            f'rx="8" fill="none" stroke="{BORDER}" stroke-width="1"/>'
+        )
 
     footer_svg = ""
     if footer_text:
@@ -160,7 +159,8 @@ def build_card(data, top_n, footer_text=None):
 
     return f'''<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">
   <rect x="0" y="0" width="{width}" height="{height}" rx="10" fill="{BG}"/>
-  {"".join(section_svgs)}
+  {"".join(boxes)}
+  {"".join(col_svgs)}
   {footer_svg}
 </svg>'''
 
