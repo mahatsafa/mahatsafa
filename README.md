@@ -163,6 +163,8 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
 </tr>
 <div align="center">
 
+<details>
+  
 ### GitHub Stats
 
 <img src="./profile/github-stats.svg" alt="GitHub Stats">
@@ -181,6 +183,10 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
 
 <div align="center">
 
+</details>
+
+<details>
+  
 ### Coding Activity
 
 <a href="https://wakatime.com/@df780e5a-a48f-42f3-82bb-25736a3f0c57">
@@ -195,6 +201,7 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
 
 </div>
 
+</details>
 ---
 
 <div align="center">
