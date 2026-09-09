@@ -1,69 +1,66 @@
-<svg width="440" height="814" viewBox="0 0 440 814" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0" y="0" width="440" height="814" rx="10" fill="#0d1117"/>
-  <g transform="translate(10,0)"><rect x="0" y="10" width="420" height="182" rx="8" fill="none" stroke="#30363d" stroke-width="1"/>
-<text x="20" y="34" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" font-weight="700" fill="#58a6ff">💻 LANGUAGES</text>
-<text x="20" y="54" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Text</text>
-<text x="400" y="54" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">48.30%</text>
-<rect x="20" y="60" width="380" height="6" rx="3" fill="#21262d"/>
-<rect x="20" y="60" width="177.3" height="6" rx="3" fill="#58a6ff"/>
-<text x="20" y="78" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">4 hrs 31 mins</text>
-<text x="20" y="98" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">HTML</text>
-<text x="400" y="98" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">29.48%</text>
-<rect x="20" y="104" width="380" height="6" rx="3" fill="#21262d"/>
-<rect x="20" y="104" width="103.6" height="6" rx="3" fill="#58a6ff"/>
-<text x="20" y="122" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">2 hrs 45 mins</text>
-<text x="20" y="142" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Python</text>
-<text x="400" y="142" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">12.06%</text>
-<rect x="20" y="148" width="380" height="6" rx="3" fill="#21262d"/>
-<rect x="20" y="148" width="35.3" height="6" rx="3" fill="#58a6ff"/>
-<text x="20" y="166" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">1 hr 7 mins</text></g><g transform="translate(10,0)"><rect x="0" y="206" width="420" height="182" rx="8" fill="none" stroke="#30363d" stroke-width="1"/>
-<text x="20" y="230" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" font-weight="700" fill="#58a6ff">🖥️ EDITORS</text>
-<text x="20" y="250" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">VS Code</text>
-<text x="400" y="250" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">98.54%</text>
-<rect x="20" y="256" width="380" height="6" rx="3" fill="#21262d"/>
-<rect x="20" y="256" width="374.3" height="6" rx="3" fill="#58a6ff"/>
-<text x="20" y="274" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">9 hrs 14 mins</text>
-<text x="20" y="294" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Unknown Editor</text>
-<text x="400" y="294" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">0.98%</text>
-<rect x="20" y="300" width="380" height="6" rx="3" fill="#21262d"/>
-<rect x="20" y="300" width="2.0" height="6" rx="3" fill="#58a6ff"/>
-<text x="20" y="318" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">5 mins</text>
-<text x="20" y="338" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Nano</text>
-<text x="400" y="338" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">0.48%</text>
-<rect x="20" y="344" width="380" height="6" rx="3" fill="#21262d"/>
-<rect x="20" y="344" width="2.0" height="6" rx="3" fill="#58a6ff"/>
-<text x="20" y="362" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">2 mins</text></g><g transform="translate(10,0)"><rect x="0" y="402" width="420" height="182" rx="8" fill="none" stroke="#30363d" stroke-width="1"/>
-<text x="20" y="426" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" font-weight="700" fill="#58a6ff">⚙️ OS</text>
-<text x="20" y="446" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Windows</text>
-<text x="400" y="446" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">98.54%</text>
-<rect x="20" y="452" width="380" height="6" rx="3" fill="#21262d"/>
-<rect x="20" y="452" width="374.3" height="6" rx="3" fill="#58a6ff"/>
-<text x="20" y="470" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">9 hrs 14 mins</text>
-<text x="20" y="490" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Linux</text>
-<text x="400" y="490" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">0.88%</text>
-<rect x="20" y="496" width="380" height="6" rx="3" fill="#21262d"/>
-<rect x="20" y="496" width="2.0" height="6" rx="3" fill="#58a6ff"/>
-<text x="20" y="514" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">4 mins</text>
-<text x="20" y="534" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">WSL</text>
-<text x="400" y="534" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">0.58%</text>
-<rect x="20" y="540" width="380" height="6" rx="3" fill="#21262d"/>
-<rect x="20" y="540" width="2.0" height="6" rx="3" fill="#58a6ff"/>
-<text x="20" y="558" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">3 mins</text></g><g transform="translate(10,0)"><rect x="0" y="598" width="420" height="182" rx="8" fill="none" stroke="#30363d" stroke-width="1"/>
-<text x="20" y="622" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" font-weight="700" fill="#58a6ff">📊 CATEGORIES</text>
-<text x="20" y="642" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Coding</text>
-<text x="400" y="642" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">95.13%</text>
-<rect x="20" y="648" width="380" height="6" rx="3" fill="#21262d"/>
-<rect x="20" y="648" width="360.9" height="6" rx="3" fill="#58a6ff"/>
-<text x="20" y="666" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">8 hrs 54 mins</text>
-<text x="20" y="686" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Writing Docs</text>
-<text x="400" y="686" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">4.29%</text>
-<rect x="20" y="692" width="380" height="6" rx="3" fill="#21262d"/>
-<rect x="20" y="692" width="4.8" height="6" rx="3" fill="#58a6ff"/>
-<text x="20" y="710" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">24 mins</text>
-<text x="20" y="730" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Writing Tests</text>
-<text x="400" y="730" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">0.58%</text>
-<rect x="20" y="736" width="380" height="6" rx="3" fill="#21262d"/>
-<rect x="20" y="736" width="2.0" height="6" rx="3" fill="#58a6ff"/>
-<text x="20" y="754" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">3 mins</text></g>
-  <text x="220.0" y="806" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">Top 3 · all_time</text>
+<svg width="990" height="218" viewBox="0 0 990 218" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="990" height="218" rx="10" fill="#0d1117"/>
+  <rect x="14" y="8" width="230" height="180" rx="8" fill="none" stroke="#30363d" stroke-width="1"/><rect x="258" y="8" width="230" height="180" rx="8" fill="none" stroke="#30363d" stroke-width="1"/><rect x="502" y="8" width="230" height="180" rx="8" fill="none" stroke="#30363d" stroke-width="1"/><rect x="746" y="8" width="230" height="180" rx="8" fill="none" stroke="#30363d" stroke-width="1"/>
+  <text x="28" y="28" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" font-weight="700" fill="#58a6ff">💻 LANGUAGES</text>
+<text x="28" y="48" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Text</text>
+<text x="230" y="48" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">48.30%</text>
+<rect x="28" y="54" width="202" height="6" rx="3" fill="#21262d"/>
+<rect x="28" y="54" width="97.6" height="6" rx="3" fill="#58a6ff"/>
+<text x="28" y="72" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">4 hrs 31 mins</text>
+<text x="28" y="92" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">HTML</text>
+<text x="230" y="92" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">29.48%</text>
+<rect x="28" y="98" width="202" height="6" rx="3" fill="#21262d"/>
+<rect x="28" y="98" width="59.5" height="6" rx="3" fill="#58a6ff"/>
+<text x="28" y="116" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">2 hrs 45 mins</text>
+<text x="28" y="136" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Python</text>
+<text x="230" y="136" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">12.06%</text>
+<rect x="28" y="142" width="202" height="6" rx="3" fill="#21262d"/>
+<rect x="28" y="142" width="24.4" height="6" rx="3" fill="#58a6ff"/>
+<text x="28" y="160" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">1 hr 7 mins</text><text x="272" y="28" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" font-weight="700" fill="#58a6ff">🖥️ EDITORS</text>
+<text x="272" y="48" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">VS Code</text>
+<text x="474" y="48" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">98.54%</text>
+<rect x="272" y="54" width="202" height="6" rx="3" fill="#21262d"/>
+<rect x="272" y="54" width="199.1" height="6" rx="3" fill="#58a6ff"/>
+<text x="272" y="72" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">9 hrs 14 mins</text>
+<text x="272" y="92" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Unknown Editor</text>
+<text x="474" y="92" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">0.98%</text>
+<rect x="272" y="98" width="202" height="6" rx="3" fill="#21262d"/>
+<rect x="272" y="98" width="2.0" height="6" rx="3" fill="#58a6ff"/>
+<text x="272" y="116" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">5 mins</text>
+<text x="272" y="136" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Nano</text>
+<text x="474" y="136" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">0.48%</text>
+<rect x="272" y="142" width="202" height="6" rx="3" fill="#21262d"/>
+<rect x="272" y="142" width="2.0" height="6" rx="3" fill="#58a6ff"/>
+<text x="272" y="160" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">2 mins</text><text x="516" y="28" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" font-weight="700" fill="#58a6ff">⚙️ OS</text>
+<text x="516" y="48" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Windows</text>
+<text x="718" y="48" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">98.54%</text>
+<rect x="516" y="54" width="202" height="6" rx="3" fill="#21262d"/>
+<rect x="516" y="54" width="199.1" height="6" rx="3" fill="#58a6ff"/>
+<text x="516" y="72" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">9 hrs 14 mins</text>
+<text x="516" y="92" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Linux</text>
+<text x="718" y="92" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">0.88%</text>
+<rect x="516" y="98" width="202" height="6" rx="3" fill="#21262d"/>
+<rect x="516" y="98" width="2.0" height="6" rx="3" fill="#58a6ff"/>
+<text x="516" y="116" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">4 mins</text>
+<text x="516" y="136" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">WSL</text>
+<text x="718" y="136" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">0.58%</text>
+<rect x="516" y="142" width="202" height="6" rx="3" fill="#21262d"/>
+<rect x="516" y="142" width="2.0" height="6" rx="3" fill="#58a6ff"/>
+<text x="516" y="160" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">3 mins</text><text x="760" y="28" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13" font-weight="700" fill="#58a6ff">📊 CATEGORIES</text>
+<text x="760" y="48" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Coding</text>
+<text x="962" y="48" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">95.13%</text>
+<rect x="760" y="54" width="202" height="6" rx="3" fill="#21262d"/>
+<rect x="760" y="54" width="192.2" height="6" rx="3" fill="#58a6ff"/>
+<text x="760" y="72" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">8 hrs 54 mins</text>
+<text x="760" y="92" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Writing Docs</text>
+<text x="962" y="92" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">4.29%</text>
+<rect x="760" y="98" width="202" height="6" rx="3" fill="#21262d"/>
+<rect x="760" y="98" width="8.7" height="6" rx="3" fill="#58a6ff"/>
+<text x="760" y="116" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">24 mins</text>
+<text x="760" y="136" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Writing Tests</text>
+<text x="962" y="136" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#8b949e">0.58%</text>
+<rect x="760" y="142" width="202" height="6" rx="3" fill="#21262d"/>
+<rect x="760" y="142" width="2.0" height="6" rx="3" fill="#58a6ff"/>
+<text x="760" y="160" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">3 mins</text>
+  <text x="495.0" y="210" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8b949e">Top 3 · all_time</text>
 </svg>
