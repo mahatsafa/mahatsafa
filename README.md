@@ -156,13 +156,17 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mahatsafa&show_icons=true&theme=tokyonight&hide_border=true)
+<img src="./profile/github-stats.svg" alt="GitHub Stats">
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=mahatsafa&theme=tokyonight&hide_border=true)
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mahatsafa&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=94a3b8&line=64748b&point=cbd5e1" />
+<img width="100%" src="./profile/activity-graph.svg" alt="Activity Graph">
 
 </div>
+</details>
+
+</div>
+
 </details>
 
 ---
