@@ -17,11 +17,14 @@
 </div>
 
 ---
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
 <div align="center">
 
 ## Featured Project
-
-
 
 <a href="https://github.com/mahatsafa/ctf">
   <img src="https://img.shields.io/badge/CTF_Practice_%26_Writeups-181717?style=for-the-badge&logo=github&logoColor=white" height="40">
@@ -30,7 +33,7 @@
 </div>
 
 <div align="justify">
-  
+
 A collection of Capture The Flag challenges and writeups from my cybersecurity learning journey.
 
 The repository contains hands-on practice across areas such as **digital forensics, steganography, file analysis, binary/hex inspection, and network analysis**.
@@ -39,11 +42,11 @@ I use this repository to document my problem-solving process, tools, commands, a
 
 </div>
 
----
-
+</td>
+<td width="50%" valign="top">
 
 <div align="center">
-  
+
 ## Tech Stack
 
 **Programming**
@@ -63,7 +66,6 @@ I use this repository to document my problem-solving process, tools, commands, a
 
 **Dev Workflow**
 
-
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
@@ -72,7 +74,15 @@ I use this repository to document my problem-solving process, tools, commands, a
 
 </div>
 
+</td>
+</tr>
+</table>
+
 ---
+
+<table width="100%">
+<tr>
+<td width="33%" valign="top">
 
 <details>
 <summary align="center"><strong>About Me</strong></summary>
@@ -89,7 +99,8 @@ I enjoy learning how systems work, solving problems, and documenting my progress
 
 </details>
 
----
+</td>
+<td width="33%" valign="top">
 
 <details>
 <summary align="center"><strong>Currently Learning</strong></summary>
@@ -118,14 +129,15 @@ I enjoy learning how systems work, solving problems, and documenting my progress
 
 </details>
 
----
-
-<div align="center">
+</td>
+<td width="34%" valign="top">
 
 <details>
-<summary><strong>Certifications</strong></summary>
+<summary align="center"><strong>Certifications</strong></summary>
 
 <br>
+
+<div align="center">
 
 <strong>Cisco Networking Academy — CCNA: Introduction to Networks</strong>
 
@@ -143,49 +155,58 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
 
 </div>
 
+</div>
+
 </details>
 
-</div>
+</td>
+</tr>
+</table>
 
 ---
 
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+<h3 align="center">GitHub Stats</h3>
+
 <div align="center">
 
-<details>
-<summary align="center"><strong>GitHub Stats</strong></summary>
+<img src="./profile/github-stats.svg" width="100%" alt="GitHub Stats">
 
-<div align="center">
-
-<img src="./profile/github-stats.svg" alt="GitHub Stats">
+<br><br>
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=mahatsafa&theme=tokyonight&hide_border=true)
 
-<img width="100%" src="./profile/activity-graph.svg" alt="Activity Graph">
+<br><br>
+
+<img src="./profile/activity-graph.svg" width="100%" alt="Activity Graph">
 
 </div>
-</details>
+
+</td>
+<td width="50%" valign="top">
+
+<h3 align="center">Coding Activity</h3>
+
+<div align="center">
+
+<a href="https://wakatime.com/@df780e5a-a48f-42f3-82bb-25736a3f0c57">
+  <img src="./profile/wakatime-top-3.svg" width="100%" alt="WakaTime Top 3">
+</a>
+
+<br><br>
+
+<a href="https://wakatime.com/@df780e5a-a48f-42f3-82bb-25736a3f0c57">
+  <img src="./profile/wakatime-all.svg" width="100%" alt="WakaTime Full Breakdown">
+</a>
 
 </div>
 
-</details>
-
----
-
-<details>
-  
-<summary align="center"><strong>Coding Activity</strong></summary>
-
-<p align="center">
-  <a href="https://wakatime.com/@df780e5a-a48f-42f3-82bb-25736a3f0c57">
-    <img src="./profile/wakatime-top-3.svg" alt="WakaTime Top 3">
-  </a>
-  <br><br>
-  <a href="https://wakatime.com/@df780e5a-a48f-42f3-82bb-25736a3f0c57">
-    <img src="./profile/wakatime-all.svg" alt="WakaTime Full Breakdown">
-  </a>
-</p>
-
-</details>
+</td>
+</tr>
+</table>
 
 ---
 
