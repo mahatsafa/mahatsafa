@@ -161,19 +161,11 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
 
 </td>
 </tr>
-</table>
-
----
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-<h3 align="center">GitHub Stats</h3>
-
 <div align="center">
 
-<img src="./profile/github-stats.svg" width="100%" alt="GitHub Stats">
+### GitHub Stats
+
+<img src="./profile/github-stats.svg" alt="GitHub Stats">
 
 <br><br>
 
@@ -181,32 +173,27 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
 
 <br><br>
 
-<img src="./profile/activity-graph.svg" width="100%" alt="Activity Graph">
+<img width="100%" src="./profile/activity-graph.svg" alt="Activity Graph">
 
 </div>
 
-</td>
-<td width="50%" valign="top">
-
-<h3 align="center">Coding Activity</h3>
+---
 
 <div align="center">
 
+### Coding Activity
+
 <a href="https://wakatime.com/@df780e5a-a48f-42f3-82bb-25736a3f0c57">
-  <img src="./profile/wakatime-top-3.svg" width="100%" alt="WakaTime Top 3">
+  <img src="./profile/wakatime-top-3.svg" alt="WakaTime Top 3">
 </a>
 
 <br><br>
 
 <a href="https://wakatime.com/@df780e5a-a48f-42f3-82bb-25736a3f0c57">
-  <img src="./profile/wakatime-all.svg" width="100%" alt="WakaTime Full Breakdown">
+  <img src="./profile/wakatime-all.svg" alt="WakaTime Full Breakdown">
 </a>
 
 </div>
-
-</td>
-</tr>
-</table>
 
 ---
 
