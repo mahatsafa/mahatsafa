@@ -84,7 +84,7 @@ I use this repository to document my problem-solving process, tools, commands, a
 <tr>
 <td width="33%" valign="top">
 
-<details>
+<details name="intro-accordion">
 <summary align="center"><strong>About Me</strong></summary>
 
 <br>
@@ -102,7 +102,7 @@ I enjoy learning how systems work, solving problems, and documenting my progress
 </td>
 <td width="33%" valign="top">
 
-<details>
+<details name="intro-accordion">
 <summary align="center"><strong>Currently Learning</strong></summary>
 
 <br>
@@ -132,7 +132,7 @@ I enjoy learning how systems work, solving problems, and documenting my progress
 </td>
 <td width="34%" valign="top">
 
-<details>
+<details name="intro-accordion">
 <summary align="center"><strong>Certifications</strong></summary>
 
 <br>
