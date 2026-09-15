@@ -76,18 +76,19 @@ I use this repository to document my problem-solving process, tools, commands, a
 
 <!--
   CATATAN LAYOUT (jangan dihapus kalau nanti mau edit):
-  Sengaja TIDAK ada width="33%" di <td> bagian bawah ini.
-  CSS bawaan GitHub memaksa: table { width: max-content; max-width: 100% }
-  Jadi kolom otomatis menyesuaikan isinya:
-    - semua tertutup -> 3 header duduk jejer rapat
-    - satu dibuka    -> kolom itu melebar hampir 100%, 2 header lain menyusut
-  Kalau width persen dipasang lagi, isi bakal kepepet dan memanjang ke bawah.
+  width tabel dipaksa 100%, tapi 3 kolom di bawah TIDAK dibagi rata 33/33/33.
+  Currently Learning dikasih jatah lebih besar (60%) karena isinya 3 sub-kolom,
+  sedangkan About Me & Certifications cuma teks/gambar singkat jadi cukup 20%.
+  Ini supaya baris tetap rata kanan-kiri saat tertutup, TAPI saat Currently
+  Learning dibuka, ia sudah punya ruang cukup dari awal -> tidak memanjang
+  ke bawah kayak dulu. Jangan disamakan jadi 33/33/33 lagi, nanti isinya
+  kepepet dan memanjang lagi.
 -->
 
-<table>
+<table width="100%">
 <tr>
 
-<td valign="top">
+<td width="20%" align="center" valign="top">
 
 <details name="intro-accordion">
 <summary><strong>About Me</strong></summary>
@@ -106,17 +107,17 @@ I enjoy learning how systems work, solving problems, and documenting my progress
 
 </td>
 
-<td valign="top">
+<td width="60%" align="center" valign="top">
 
 <details name="intro-accordion">
 <summary><strong>Currently Learning</strong></summary>
 
 <br>
 
-<table>
+<table width="100%">
 <tr>
 
-<td valign="top">
+<td width="33%" valign="top">
 
 **Linux &amp; Networking**
 
@@ -126,7 +127,7 @@ I enjoy learning how systems work, solving problems, and documenting my progress
 
 </td>
 
-<td valign="top">
+<td width="33%" valign="top">
 
 **Programming &amp; Tools**
 
@@ -136,7 +137,7 @@ I enjoy learning how systems work, solving problems, and documenting my progress
 
 </td>
 
-<td valign="top">
+<td width="34%" valign="top">
 
 **Security &amp; Forensics**
 
@@ -154,7 +155,7 @@ I enjoy learning how systems work, solving problems, and documenting my progress
 
 </td>
 
-<td valign="top">
+<td width="20%" align="center" valign="top">
 
 <details name="intro-accordion">
 <summary><strong>Certifications</strong></summary>
@@ -186,12 +187,12 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
 
 ---
 
+<div align="center">
+
 <details>
 <summary><strong>GitHub Stats</strong></summary>
 
 <br>
-
-<div align="center">
 
 <img src="./profile/github-stats.svg" alt="GitHub Stats">
 
@@ -229,14 +230,16 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
 
 </details>
 
+</div>
+
 ---
+
+<div align="center">
 
 <details>
 <summary><strong>Coding Activity</strong></summary>
 
 <br>
-
-<div align="center">
 
 <a href="https://wakatime.com/@df780e5a-a48f-42f3-82bb-25736a3f0c57">
   <img width="100%" src="./profile/wakatime-top-3.svg" alt="WakaTime Top 3">
@@ -248,9 +251,9 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
   <img width="100%" src="./profile/wakatime-all.svg" alt="WakaTime Full Breakdown">
 </a>
 
-</div>
-
 </details>
+
+</div>
 
 ---
 
