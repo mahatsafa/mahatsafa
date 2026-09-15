@@ -6,10 +6,6 @@
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/bm.gustom)
 [![Chess.com](https://img.shields.io/badge/Chess.com-81B64C?style=for-the-badge&logo=chessdotcom&logoColor=white)](https://www.chess.com/member/mahatsafa)
 
-</div>
-
-<div align="center">
-
 # Hi, I'm Bima Gusto Mahatsafa
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&center=true&vCenter=true&width=500&lines=TKJ+Student;Networking+%26+Cybersecurity+Learner;Script+Kiddie)](https://git.io/typing-svg)
@@ -18,7 +14,7 @@
 
 ---
 
-<table width="100%">
+<table>
 <tr>
 <td width="50%" valign="top">
 
@@ -27,7 +23,7 @@
 ## Featured Project
 
 <a href="https://github.com/mahatsafa/ctf">
-  <img src="https://img.shields.io/badge/CTF_Practice_%26_Writeups-181717?style=for-the-badge&logo=github&logoColor=white" height="40">
+  <img src="https://img.shields.io/badge/CTF_Practice_%26_Writeups-181717?style=for-the-badge&logo=github&logoColor=white" height="40" alt="CTF Practice and Writeups">
 </a>
 
 </div>
@@ -51,14 +47,12 @@ I use this repository to document my problem-solving process, tools, commands, a
 
 **Programming**
 
-![Programming](https://skillicons.dev/icons?i=python,bash,html,css,js,c,cpp,cs,arduino)
+<img src="https://skillicons.dev/icons?i=python,bash,html,css,js,c,cpp,cs,arduino" alt="Programming">
 
 **Operating Systems**
 
-<p>
-  <img src="https://skillicons.dev/icons?i=windows,linux,kali,debian" height="48" alt="Operating Systems">
-  <img src="https://cdn.simpleicons.org/centos/262577" height="48" width="48" alt="CentOS">
-</p>
+<img src="https://skillicons.dev/icons?i=windows,linux,kali,debian" height="48" alt="Operating Systems">
+<img src="https://cdn.simpleicons.org/centos/262577" height="48" width="48" alt="CentOS">
 
 **Networking & Forensics Tools**
 
@@ -80,12 +74,23 @@ I use this repository to document my problem-solving process, tools, commands, a
 
 ---
 
-<table width="100%">
+<!--
+  CATATAN LAYOUT (jangan dihapus kalau nanti mau edit):
+  Sengaja TIDAK ada width="33%" di <td> bagian bawah ini.
+  CSS bawaan GitHub memaksa: table { width: max-content; max-width: 100% }
+  Jadi kolom otomatis menyesuaikan isinya:
+    - semua tertutup -> 3 header duduk jejer rapat
+    - satu dibuka    -> kolom itu melebar hampir 100%, 2 header lain menyusut
+  Kalau width persen dipasang lagi, isi bakal kepepet dan memanjang ke bawah.
+-->
+
+<table>
 <tr>
-<td width="33%" valign="top">
+
+<td valign="top">
 
 <details name="intro-accordion">
-<summary align="center"><strong>About Me</strong></summary>
+<summary><strong>About Me</strong></summary>
 
 <br>
 
@@ -100,40 +105,59 @@ I enjoy learning how systems work, solving problems, and documenting my progress
 </details>
 
 </td>
-<td width="33%" valign="top">
+
+<td valign="top">
 
 <details name="intro-accordion">
-<summary align="center"><strong>Currently Learning</strong></summary>
+<summary><strong>Currently Learning</strong></summary>
 
 <br>
 
-<div align="justify">
+<table>
+<tr>
 
-### Linux & Networking
+<td valign="top">
+
+**Linux &amp; Networking**
+
 - Linux command line (Kali Linux, WSL)
 - TCP/IP, IPv4/IPv6, Subnetting
-- Switching & Routing fundamentals
+- Switching &amp; Routing fundamentals
 
-### Programming & Tools
+</td>
+
+<td valign="top">
+
+**Programming &amp; Tools**
+
 - Python
-- Git & GitHub
+- Git &amp; GitHub
 - Visual Studio Code
 
-### Security & Forensics
+</td>
+
+<td valign="top">
+
+**Security &amp; Forensics**
+
 - Cybersecurity fundamentals
 - CTF (Capture The Flag)
 - Digital forensics
-- Basic reverse engineering / binary analysis
+- Basic reverse engineering
 
-</div>
+</td>
+
+</tr>
+</table>
 
 </details>
 
 </td>
-<td width="34%" valign="top">
+
+<td valign="top">
 
 <details name="intro-accordion">
-<summary align="center"><strong>Certifications</strong></summary>
+<summary><strong>Certifications</strong></summary>
 
 <br>
 
@@ -149,27 +173,31 @@ I enjoy learning how systems work, solving problems, and documenting my progress
 
 <br><br>
 
-<div align="justify">
-
 Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, covering fundamental networking concepts and technologies.
-
-</div>
 
 </div>
 
 </details>
 
 </td>
-</tr>
-<div align="center">
 
-### GitHub Stats
+</tr>
+</table>
+
+---
+
+<details>
+<summary><strong>GitHub Stats</strong></summary>
+
+<br>
+
+<div align="center">
 
 <img src="./profile/github-stats.svg" alt="GitHub Stats">
 
 <br><br>
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=mahatsafa&theme=tokyonight&hide_border=true)
+<img src="https://streak-stats.demolab.com/?user=mahatsafa&theme=tokyonight&hide_border=true" alt="GitHub Streak">
 
 <br><br>
 
@@ -177,29 +205,58 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
 
 </div>
 
+<!--
+  DUAL THEME (light/dark).
+  Pakai blok di bawah SETELAH workflow generate-cards.yml sukses jalan sekali
+  dan file *-light.svg / *-dark.svg sudah ada di folder profile/.
+  Caranya: ganti 3 <img> di atas dengan 3 <picture> di bawah ini.
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/github-stats-dark.svg">
+    <img src="./profile/github-stats-light.svg" alt="GitHub Stats">
+  </picture>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/streak-dark.svg">
+    <img src="./profile/streak-light.svg" alt="GitHub Streak">
+  </picture>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/activity-graph-dark.svg">
+    <img width="100%" src="./profile/activity-graph-light.svg" alt="Activity Graph">
+  </picture>
+-->
+
+</details>
+
 ---
+
+<details>
+<summary><strong>Coding Activity</strong></summary>
+
+<br>
 
 <div align="center">
 
-### Coding Activity
-
 <a href="https://wakatime.com/@df780e5a-a48f-42f3-82bb-25736a3f0c57">
-  <img src="./profile/wakatime-top-3.svg" alt="WakaTime Top 3">
+  <img width="100%" src="./profile/wakatime-top-3.svg" alt="WakaTime Top 3">
 </a>
 
 <br><br>
 
 <a href="https://wakatime.com/@df780e5a-a48f-42f3-82bb-25736a3f0c57">
-  <img src="./profile/wakatime-all.svg" alt="WakaTime Full Breakdown">
+  <img width="100%" src="./profile/wakatime-all.svg" alt="WakaTime Full Breakdown">
 </a>
 
 </div>
+
+</details>
 
 ---
 
 <div align="center">
 
-Connect with Me
+### Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustomahatsafa/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahatsafa)
@@ -207,9 +264,7 @@ Connect with Me
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/bm.gustom)
 [![Chess.com](https://img.shields.io/badge/Chess.com-81B64C?style=for-the-badge&logo=chessdotcom&logoColor=white)](https://www.chess.com/member/mahatsafa)
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mahatsafa&label=Profile%20Views&style=for-the-badge" alt="Profile Views">
-</p>
+<img src="https://komarev.com/ghpvc/?username=mahatsafa&label=Profile%20Views&style=for-the-badge" alt="Profile Views">
 
 </div>
 
