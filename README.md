@@ -16,7 +16,7 @@
 
 <table>
 <tr>
-<td width="50%" valign="top">
+< width="50%" valign="top">
 
 <div align="center">
 
@@ -38,8 +38,8 @@ I use this repository to document my problem-solving process, tools, commands, a
 
 </div>
 
-</td>
-<td width="50%" valign="top">
+</>
+< width="50%" valign="top">
 
 <div align="center">
 
@@ -68,7 +68,7 @@ I use this repository to document my problem-solving process, tools, commands, a
 
 </div>
 
-</td>
+</>
 </tr>
 </table>
 
@@ -88,7 +88,7 @@ I use this repository to document my problem-solving process, tools, commands, a
 <table width="100%">
 <tr>
 
-<td width="20%" align="center" valign="top">
+< width="20%" align="center" valign="top">
 
 <details name="intro-accordion">
 <summary><strong>About Me</strong></summary>
@@ -105,9 +105,9 @@ I enjoy learning how systems work, solving problems, and documenting my progress
 
 </details>
 
-</td>
+</>
 
-<td width="60%" align="center" valign="top">
+< width="60%" align="center" valign="top">
 
 <details name="intro-accordion">
 <summary><strong>Currently Learning</strong></summary>
@@ -117,7 +117,7 @@ I enjoy learning how systems work, solving problems, and documenting my progress
 <table width="100%">
 <tr>
 
-<td width="33%" valign="top">
+< width="33%" valign="top">
 
 **Linux &amp; Networking**
 
@@ -125,9 +125,9 @@ I enjoy learning how systems work, solving problems, and documenting my progress
 - TCP/IP, IPv4/IPv6, Subnetting
 - Switching &amp; Routing fundamentals
 
-</td>
+</>
 
-<td width="33%" valign="top">
+< width="33%" valign="top">
 
 **Programming &amp; Tools**
 
@@ -135,9 +135,9 @@ I enjoy learning how systems work, solving problems, and documenting my progress
 - Git &amp; GitHub
 - Visual Studio Code
 
-</td>
+</>
 
-<td width="34%" valign="top">
+< width="34%" valign="top">
 
 **Security &amp; Forensics**
 
@@ -146,16 +146,16 @@ I enjoy learning how systems work, solving problems, and documenting my progress
 - Digital forensics
 - Basic reverse engineering
 
-</td>
+</>
 
 </tr>
 </table>
 
 </details>
 
-</td>
+</>
 
-<td width="20%" align="center" valign="top">
+< width="20%" align="center" valign="top">
 
 <details name="intro-accordion">
 <summary><strong>Certifications</strong></summary>
@@ -180,7 +180,7 @@ Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, c
 
 </details>
 
-</td>
+</>
 
 </tr>
 </table>
