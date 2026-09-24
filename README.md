@@ -108,6 +108,14 @@ Cybersecurity fundamentals · CTF (Capture The Flag) · Digital forensics · Bas
 
 <br>
 
+<!-- Achievements -->
+<p align="center">
+  <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" height="56" alt="YOLO">
+  <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" height="56" alt="Quickdraw">
+</p>
+
+<br>
+
 <img src="./profile/github-stats.svg" alt="GitHub Stats">
 
 <br><br>
@@ -120,27 +128,7 @@ Cybersecurity fundamentals · CTF (Capture The Flag) · Digital forensics · Bas
 
 </div>
 
-<!--
-  DUAL THEME (light/dark).
-  Pakai blok di bawah SETELAH workflow generate-cards.yml sukses jalan sekali
-  dan file *-light.svg / *-dark.svg sudah ada di folder profile/.
-  Caranya: ganti 3 <img> di atas dengan 3 <picture> di bawah ini.
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/github-stats-dark.svg">
-    <img src="./profile/github-stats-light.svg" alt="GitHub Stats">
-  </picture>
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/streak-dark.svg">
-    <img src="./profile/streak-light.svg" alt="GitHub Streak">
-  </picture>
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/activity-graph-dark.svg">
-    <img width="100%" src="./profile/activity-graph-light.svg" alt="Activity Graph">
-  </picture>
--->
+<!-- ... blok dual theme kamu tetap sama, nggak perlu diubah ... -->
 
 </details>
 
