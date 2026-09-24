@@ -41,10 +41,10 @@ BAR_FILL = "#58a6ff"
 FONT = "Segoe UI, Ubuntu, sans-serif"
 
 COLUMNS = [
-    ("languages", "💻 LANGUAGES"),
-    ("editors", "🖥️ EDITORS"),
-    ("operating_systems", "⚙️ OS"),
-    ("categories", "📊 CATEGORIES"),
+    ("languages", "LANGUAGES"),
+    ("editors", "EDITORS"),
+    ("operating_systems", "OS"),
+    ("categories", "CATEGORIES"),
 ]
 
 
