@@ -14,19 +14,25 @@
 
 ---
 
-<table>
-<tr>
-< width="50%" valign="top">
-
 <div align="center">
 
-## Featured Project
+### About Me
+
+<div align="justify">
+
+Student at **SMK Telkom Malang**, majoring in **Teknik Komputer dan Jaringan (TKJ)**.
+
+I enjoy learning how systems work, solving problems, and documenting my progress in networking, Linux, and cybersecurity through hands-on practice, especially CTF challenges.
+
+</div>
+
+---
+
+### Featured Project
 
 <a href="https://github.com/mahatsafa/ctf">
   <img src="https://img.shields.io/badge/CTF_Practice_%26_Writeups-181717?style=for-the-badge&logo=github&logoColor=white" height="40" alt="CTF Practice and Writeups">
 </a>
-
-</div>
 
 <div align="justify">
 
@@ -38,12 +44,9 @@ I use this repository to document my problem-solving process, tools, commands, a
 
 </div>
 
-</>
-< width="50%" valign="top">
+---
 
-<div align="center">
-
-## Tech Stack
+### Tech Stack
 
 **Programming**
 
@@ -66,124 +69,35 @@ I use this repository to document my problem-solving process, tools, commands, a
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
 
-</div>
-
-</>
-</tr>
-</table>
 
 ---
 
-<!--
-  CATATAN LAYOUT (jangan dihapus kalau nanti mau edit):
-  width tabel dipaksa 100%, tapi 3 kolom di bawah TIDAK dibagi rata 33/33/33.
-  Currently Learning dikasih jatah lebih besar (60%) karena isinya 3 sub-kolom,
-  sedangkan About Me & Certifications cuma teks/gambar singkat jadi cukup 20%.
-  Ini supaya baris tetap rata kanan-kiri saat tertutup, TAPI saat Currently
-  Learning dibuka, ia sudah punya ruang cukup dari awal -> tidak memanjang
-  ke bawah kayak dulu. Jangan disamakan jadi 33/33/33 lagi, nanti isinya
-  kepepet dan memanjang lagi.
--->
+### Certifications
 
-<table width="100%">
-<tr>
-
-< width="20%" align="center" valign="top">
-
-<details name="intro-accordion">
-<summary><strong>About Me</strong></summary>
-
-<br>
-
-<div align="justify">
-
-Student at **SMK Telkom Malang**, majoring in **Teknik Komputer dan Jaringan (TKJ)**.
-
-I enjoy learning how systems work, solving problems, and documenting my progress in networking, Linux, and cybersecurity through hands-on practice, especially CTF challenges.
+You can see my certifications on my [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustomahatsafa/)
 
 </div>
 
-</details>
-
-</>
-
-< width="60%" align="center" valign="top">
-
-<details name="intro-accordion">
+---
+<div  align="center">
+<details>
 <summary><strong>Currently Learning</strong></summary>
 
 <br>
 
-<table width="100%">
-<tr>
-
-< width="33%" valign="top">
-
 **Linux &amp; Networking**
 
-- Linux command line (Kali Linux, WSL)
-- TCP/IP, IPv4/IPv6, Subnetting
-- Switching &amp; Routing fundamentals
-
-</>
-
-< width="33%" valign="top">
+Linux command line (Kali Linux, WSL) · TCP/IP, IPv4/IPv6, Subnetting · Switching &amp; Routing fundamentals
 
 **Programming &amp; Tools**
 
-- Python
-- Git &amp; GitHub
-- Visual Studio Code
-
-</>
-
-< width="34%" valign="top">
+Python · Git &amp; GitHub · Visual Studio Code
 
 **Security &amp; Forensics**
 
-- Cybersecurity fundamentals
-- CTF (Capture The Flag)
-- Digital forensics
-- Basic reverse engineering
-
-</>
-
-</tr>
-</table>
+Cybersecurity fundamentals · CTF (Capture The Flag) · Digital forensics · Basic reverse engineering
 
 </details>
-
-</>
-
-< width="20%" align="center" valign="top">
-
-<details name="intro-accordion">
-<summary><strong>Certifications</strong></summary>
-
-<br>
-
-<div align="center">
-
-<strong>Cisco Networking Academy — CCNA: Introduction to Networks</strong>
-
-<br><br>
-
-<a href="https://www.credly.com/badges/4a252ebe-99b7-4757-a1e2-e7c6456325c0/public_url">
-  <img src="./assets/ccna-introduction-to-networks.png" width="150" alt="CCNA: Introduction to Networks">
-</a>
-
-<br><br>
-
-Completed **CCNA: Introduction to Networks** through Cisco Networking Academy, covering fundamental networking concepts and technologies.
-
-</div>
-
-</details>
-
-</>
-
-</tr>
-</table>
 
 ---
 
