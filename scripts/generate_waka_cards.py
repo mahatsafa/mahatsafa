@@ -1,26 +1,30 @@
 #!/usr/bin/env python3
 """
-Generate kartu "Coding activity" dari statistik WakaTime, versi dark & light.
+Generate kartu "Coding activity" dari statistik WakaTime, versi dark & light,
+masing-masing dalam layout lebar (desktop) dan layout satu kolom (HP).
 
 Desainnya meniru section "Aktivitas" di https://gustomahatsafa.vercel.app/activity:
-kolom kiri berisi LANGUAGES (bar tebal), kolom kanan berisi EDITOR,
-OPERATING SYSTEM, dan CATEGORY (bar tipis), dengan palet netral hitam/putih/abu.
+LANGUAGES dengan bar tebal, lalu EDITOR, OPERATING SYSTEM, dan CATEGORY dengan
+bar tipis, memakai palet netral hitam/putih/abu.
 
 Output:
-    profile/wakatime-dark.svg
-    profile/wakatime-light.svg
+    profile/wakatime-dark.svg            desktop, tema gelap
+    profile/wakatime-light.svg           desktop, tema terang
+    profile/wakatime-dark-mobile.svg     HP, tema gelap
+    profile/wakatime-light-mobile.svg    HP, tema terang
 
-Kenapa dua file:
-GitHub me-proxy gambar lewat camo, jadi SVG tidak tahu pembaca sedang pakai
-light atau dark mode. README memilih salah satu file lewat <picture> +
-prefers-color-scheme.
+Kenapa empat file:
+GitHub me-proxy gambar lewat camo, jadi SVG tidak tahu tema maupun lebar layar
+pembaca. README memilih file yang cocok lewat <picture> + <source media="...">.
+Layout lebar yang diperkecil ke layar HP membuat teks hanya ~5-6px, karena itu
+HP mendapat layout sendiri yang disusun ke bawah.
 
 Env var:
     WAKATIME_API_KEY  (wajib)
     WAKA_RANGE        last_7_days | last_30_days | last_6_months | last_year
                       | all_time   (default: all_time)
-    WAKA_LANG_TOP_N   jumlah bahasa di kolom kiri (default: 6)
-    WAKA_SIDE_TOP_N   jumlah item per section di kolom kanan (default: 3)
+    WAKA_LANG_TOP_N   jumlah bahasa (default: 6)
+    WAKA_SIDE_TOP_N   jumlah item per section EDITOR/OS/CATEGORY (default: 3)
     WAKA_OUT_DIR      folder output (default: profile)
 
 Hanya memakai standard library Python, jadi tidak perlu `pip install`.
@@ -79,7 +83,18 @@ SIDE_SECTIONS = [
     ("categories", "CATEGORY"),
 ]
 
-# ---- Ukuran layout (px, dalam koordinat viewBox) ------------------------------
+# ---- Ukuran bersama (px, dalam koordinat viewBox) -----------------------------
+HEADER_LINE_Y = 96  # garis pemisah di bawah header
+BODY_Y = 132  # baseline judul section pertama
+
+LANG_FIRST_OFFSET = 30  # jarak judul LANGUAGES ke baseline nama bahasa pertama
+LANG_ROW_CONTENT = 18  # dari baseline nama sampai bawah bar tebal
+
+SIDE_FIRST_OFFSET = 28
+SIDE_PITCH = 30
+SIDE_ROW_CONTENT = 11  # dari baseline nama sampai bawah bar tipis
+
+# ---- Layout desktop: dua kolom ------------------------------------------------
 WIDTH = 840
 PAD = 32
 LEFT_X = PAD
@@ -87,20 +102,22 @@ LEFT_W = 456
 DIVIDER_X = 520
 RIGHT_X = 552
 RIGHT_W = WIDTH - PAD - RIGHT_X  # 256
-BODY_Y = 132  # baseline judul section pertama
 
-LANG_FIRST_OFFSET = 30  # jarak judul LANGUAGES ke baseline nama bahasa pertama
-LANG_ROW_CONTENT = 18  # dari baseline nama sampai bawah bar tebal
 LANG_PITCH_MIN = 40  # jarak minimum antar baris bahasa
 LANG_PITCH_MAX = 64  # batas maksimum supaya baris tidak terlalu renggang
-
-SIDE_FIRST_OFFSET = 28
-SIDE_PITCH = 30
-SIDE_ROW_CONTENT = 11  # dari baseline nama sampai bawah bar tipis
 SIDE_GAP_MIN = 30  # jarak minimum antar section di kolom kanan
 
 NAME_MAX_LEFT = 22  # ~22 huruf tebal masih muat sebelum teks durasi
 NAME_MAX_RIGHT = 22
+
+# ---- Layout HP: satu kolom ----------------------------------------------------
+# Lebar 420 dipilih supaya di layar HP (~360px) skalanya ~0.85, jadi teks 14px
+# masih tampil sekitar 12px.
+MOBILE_WIDTH = 420
+MOBILE_PAD = 20
+MOBILE_LANG_PITCH = 44
+MOBILE_SECTION_GAP = 32
+MOBILE_NAME_MAX = 16  # kolom lebih sempit, nama harus lebih pendek
 
 
 # ---- Data ---------------------------------------------------------------------
@@ -169,14 +186,19 @@ def fmt_percent(value: float) -> str:
 
 
 # ---- Layout -------------------------------------------------------------------
+def languages_height(count: int, pitch: float) -> float:
+    """Tinggi blok LANGUAGES, dari baseline judul sampai bawah bar terakhir."""
+    return LANG_FIRST_OFFSET + (max(count, 1) - 1) * pitch + LANG_ROW_CONTENT
+
+
 def side_section_height(count: int) -> int:
-    """Tinggi satu section kanan, dari baseline judul sampai bawah bar terakhir."""
+    """Tinggi satu section EDITOR/OS/CATEGORY, dari baseline judul sampai bawah bar terakhir."""
     rows = max(count, 1)  # section kosong tetap memakai satu baris "No data"
     return SIDE_FIRST_OFFSET + (rows - 1) * SIDE_PITCH + SIDE_ROW_CONTENT
 
 
 def compute_layout(lang_count: int, side_counts: list[int]) -> dict:
-    """Hitung jarak baris supaya kolom kiri dan kanan berakhir sejajar.
+    """Hitung jarak baris desktop supaya kolom kiri dan kanan berakhir sejajar.
 
     Kolom kanan punya tinggi alami (3 section). Jarak antar baris bahasa
     direnggangkan agar kolom kiri setinggi itu, tapi dibatasi LANG_PITCH_MAX
@@ -192,7 +214,7 @@ def compute_layout(lang_count: int, side_counts: list[int]) -> dict:
         pitch = min(max(wanted, LANG_PITCH_MIN), LANG_PITCH_MAX)
     else:
         pitch = LANG_PITCH_MIN
-    left_h = LANG_FIRST_OFFSET + (rows - 1) * pitch + LANG_ROW_CONTENT
+    left_h = languages_height(rows, pitch)
 
     side_gap = float(SIDE_GAP_MIN)
     if left_h > right_h and len(section_heights) > 1:
@@ -247,43 +269,44 @@ def render_bar(x: float, y: float, width: float, height: float, percent: float,
     )
 
 
-def render_header(theme: dict[str, str], subtitle: str) -> str:
+def render_header(theme: dict[str, str], subtitle: str, width: int, pad: int) -> str:
     """Ikon jam, judul, subjudul monospace, dan lencana panah ↗ di kanan atas."""
-    icon_cx, icon_cy = PAD + 9, 42
-    badge_cx, badge_cy = WIDTH - PAD - 16, 48
+    icon_cx, icon_cy = pad + 9, 42
+    badge_cx, badge_cy = width - pad - 16, 48
     return f"""
   <g fill="none" stroke="{theme["text"]}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
     <circle cx="{icon_cx}" cy="{icon_cy}" r="9"/>
     <path d="M{icon_cx} {icon_cy - 5} V{icon_cy} L{icon_cx + 3.5} {icon_cy + 2.5}"/>
   </g>
-  <text class="sans title" x="{PAD + 28}" y="{icon_cy + 6}">Coding activity</text>
-  <text class="mono subtitle" x="{PAD}" y="{icon_cy + 32}">{esc(subtitle)}</text>
+  <text class="sans title" x="{pad + 28}" y="{icon_cy + 6}">Coding activity</text>
+  <text class="mono subtitle" x="{pad}" y="{icon_cy + 32}">{esc(subtitle)}</text>
   <circle cx="{badge_cx}" cy="{badge_cy}" r="16" fill="none" stroke="{theme["border"]}" stroke-width="1"/>
   <path d="M{badge_cx - 4} {badge_cy + 4} L{badge_cx + 4} {badge_cy - 4} M{badge_cx - 2.5} {badge_cy - 4} H{badge_cx + 4} V{badge_cy + 2.5}"
         fill="none" stroke="{theme["text"]}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="{PAD}" y1="96" x2="{WIDTH - PAD}" y2="96" stroke="{theme["border"]}" stroke-width="1"/>"""
+  <line x1="{pad}" y1="{HEADER_LINE_Y}" x2="{width - pad}" y2="{HEADER_LINE_Y}" stroke="{theme["border"]}" stroke-width="1"/>"""
 
 
-def render_languages(theme: dict[str, str], items: list[dict], pitch: float) -> str:
-    """Kolom kiri: daftar bahasa bernomor dengan bar tebal."""
-    parts = [f'<text class="sans label" x="{LEFT_X}" y="{BODY_Y}">LANGUAGES</text>']
-    name_x = LEFT_X + 24
-    right_edge = LEFT_X + LEFT_W
+def render_languages(theme: dict[str, str], items: list[dict], x: float, width: float,
+                     top_y: float, pitch: float, name_max: int) -> str:
+    """Blok LANGUAGES: daftar bahasa bernomor dengan bar tebal."""
+    parts = [f'<text class="sans label" x="{x}" y="{top_y:.1f}">LANGUAGES</text>']
+    name_x = x + 24
+    right_edge = x + width
     bar_w = right_edge - name_x
 
     if not items:
         parts.append(
-            f'<text class="sans empty" x="{LEFT_X}" y="{BODY_Y + LANG_FIRST_OFFSET}">No data</text>'
+            f'<text class="sans empty" x="{x}" y="{top_y + LANG_FIRST_OFFSET:.1f}">No data</text>'
         )
         return "\n  ".join(parts)
 
     for index, item in enumerate(items):
-        y = BODY_Y + LANG_FIRST_OFFSET + index * pitch
+        y = top_y + LANG_FIRST_OFFSET + index * pitch
         percent = float(item.get("percent", 0))
-        parts.append(f'<text class="mono rank" x="{LEFT_X}" y="{y:.1f}">{index + 1}</text>')
+        parts.append(f'<text class="mono rank" x="{x}" y="{y:.1f}">{index + 1}</text>')
         parts.append(
             f'<text class="sans lang" x="{name_x}" y="{y:.1f}">'
-            f'{esc(truncate(item.get("name", "Unknown"), NAME_MAX_LEFT))}</text>'
+            f'{esc(truncate(item.get("name", "Unknown"), name_max))}</text>'
         )
         # Persen ditaruh paling kanan; durasi di kirinya dengan jarak tetap,
         # karena lebar teks persen hampir selalu sama ("45.1%").
@@ -300,15 +323,15 @@ def render_languages(theme: dict[str, str], items: list[dict], pitch: float) -> 
     return "\n  ".join(parts)
 
 
-def render_side_section(theme: dict[str, str], top_y: float, title: str,
-                        items: list[dict], delay_base: int) -> str:
-    """Satu section di kolom kanan (EDITOR / OPERATING SYSTEM / CATEGORY)."""
-    parts = [f'<text class="sans label" x="{RIGHT_X}" y="{top_y:.1f}">{esc(title)}</text>']
-    right_edge = RIGHT_X + RIGHT_W
+def render_side_section(theme: dict[str, str], x: float, width: float, top_y: float,
+                        title: str, items: list[dict], name_max: int, delay_base: int) -> str:
+    """Satu section EDITOR / OPERATING SYSTEM / CATEGORY dengan bar tipis."""
+    parts = [f'<text class="sans label" x="{x}" y="{top_y:.1f}">{esc(title)}</text>']
+    right_edge = x + width
 
     if not items:
         parts.append(
-            f'<text class="sans empty" x="{RIGHT_X}" y="{top_y + SIDE_FIRST_OFFSET:.1f}">No data</text>'
+            f'<text class="sans empty" x="{x}" y="{top_y + SIDE_FIRST_OFFSET:.1f}">No data</text>'
         )
         return "\n  ".join(parts)
 
@@ -316,56 +339,107 @@ def render_side_section(theme: dict[str, str], top_y: float, title: str,
         y = top_y + SIDE_FIRST_OFFSET + index * SIDE_PITCH
         percent = float(item.get("percent", 0))
         parts.append(
-            f'<text class="sans item" x="{RIGHT_X}" y="{y:.1f}">'
-            f'{esc(truncate(item.get("name", "Unknown"), NAME_MAX_RIGHT))}</text>'
+            f'<text class="sans item" x="{x}" y="{y:.1f}">'
+            f'{esc(truncate(item.get("name", "Unknown"), name_max))}</text>'
         )
         parts.append(
             f'<text class="mono pct-sm" x="{right_edge}" y="{y:.1f}" text-anchor="end">'
             f'{fmt_percent(percent)}</text>'
         )
-        parts.append(render_bar(RIGHT_X, y + 8, RIGHT_W, 3, percent,
+        parts.append(render_bar(x, y + 8, width, 3, percent,
                                 theme["fill_soft"], theme["track"], delay_base + 80 * index))
     return "\n  ".join(parts)
 
 
-def build_card(data: dict, theme_name: str, range_key: str = RANGE,
-               lang_top_n: int = LANG_TOP_N, side_top_n: int = SIDE_TOP_N) -> str:
-    """Rakit satu SVG lengkap untuk tema 'dark' atau 'light'."""
-    theme = THEMES[theme_name]
+def wrap_svg(theme: dict[str, str], width: int, height: int, pad: int,
+             subtitle: str, body: str) -> str:
+    """Bungkus isi kartu dengan <svg>, judul aksesibilitas, CSS, latar, dan header."""
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title">
+  <title id="title">Coding activity: {esc(subtitle)}</title>
+  {render_style(theme)}
+  <rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="12" fill="{theme["bg"]}" stroke="{theme["border"]}"/>
+  {render_header(theme, subtitle, width, pad)}
+  {body}
+</svg>
+"""
+
+
+def collect(data: dict, lang_top_n: int, side_top_n: int) -> tuple[list[dict], list[tuple[str, list[dict]]]]:
+    """Ambil daftar bahasa dan isi tiap section samping dari data API."""
     languages = top_items(data, "languages", lang_top_n)
     sides = [(title, top_items(data, key, side_top_n)) for key, title in SIDE_SECTIONS]
-    layout = compute_layout(len(languages), [len(items) for _, items in sides])
+    return languages, sides
 
-    height = round(BODY_Y + layout["body_h"] + PAD)
+
+def build_card(data: dict, theme_name: str, range_key: str = RANGE,
+               lang_top_n: int = LANG_TOP_N, side_top_n: int = SIDE_TOP_N) -> str:
+    """Kartu desktop: LANGUAGES di kiri, EDITOR/OS/CATEGORY di kanan."""
+    theme = THEMES[theme_name]
+    languages, sides = collect(data, lang_top_n, side_top_n)
+    layout = compute_layout(len(languages), [len(items) for _, items in sides])
     subtitle = f"WakaTime · {range_text(range_key)} · {total_text(data)} total"
 
     side_parts = []
     top_y = float(BODY_Y)
     for section_index, (title, items) in enumerate(sides):
-        side_parts.append(render_side_section(theme, top_y, title, items, 200 + 240 * section_index))
+        side_parts.append(render_side_section(theme, RIGHT_X, RIGHT_W, top_y, title, items,
+                                              NAME_MAX_RIGHT, 200 + 240 * section_index))
         top_y += side_section_height(len(items)) + layout["side_gap"]
 
     divider_bottom = BODY_Y + layout["body_h"]
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{height}" viewBox="0 0 {WIDTH} {height}" role="img" aria-labelledby="title">
-  <title id="title">Coding activity: {esc(subtitle)}</title>
-  {render_style(theme)}
-  <rect x="0.5" y="0.5" width="{WIDTH - 1}" height="{height - 1}" rx="12" fill="{theme["bg"]}" stroke="{theme["border"]}"/>
-  {render_header(theme, subtitle)}
-  <line x1="{DIVIDER_X}" y1="{BODY_Y - 14}" x2="{DIVIDER_X}" y2="{divider_bottom:.1f}" stroke="{theme["border"]}" stroke-width="1"/>
-  {render_languages(theme, languages, layout["lang_pitch"])}
-  {"".join(side_parts)}
-</svg>
-"""
+    body = "\n  ".join([
+        f'<line x1="{DIVIDER_X}" y1="{BODY_Y - 14}" x2="{DIVIDER_X}" y2="{divider_bottom:.1f}" '
+        f'stroke="{theme["border"]}" stroke-width="1"/>',
+        render_languages(theme, languages, LEFT_X, LEFT_W, BODY_Y,
+                         layout["lang_pitch"], NAME_MAX_LEFT),
+        *side_parts,
+    ])
+    height = round(BODY_Y + layout["body_h"] + PAD)
+    return wrap_svg(theme, WIDTH, height, PAD, subtitle, body)
+
+
+def build_mobile_card(data: dict, theme_name: str, range_key: str = RANGE,
+                      lang_top_n: int = LANG_TOP_N, side_top_n: int = SIDE_TOP_N) -> str:
+    """Kartu HP: semua section disusun ke bawah dalam satu kolom.
+
+    Di layar sempit dua kolom terlalu kecil untuk dibaca, jadi tiap section
+    memakai lebar penuh. Kolom tidak perlu disejajarkan, jadi jarak baris tetap.
+    """
+    theme = THEMES[theme_name]
+    languages, sides = collect(data, lang_top_n, side_top_n)
+    subtitle = f"WakaTime · {range_text(range_key)} · {total_text(data)} total"
+    x = MOBILE_PAD
+    width = MOBILE_WIDTH - 2 * MOBILE_PAD
+
+    parts = [render_languages(theme, languages, x, width, BODY_Y,
+                              MOBILE_LANG_PITCH, MOBILE_NAME_MAX)]
+    top_y = BODY_Y + languages_height(len(languages), MOBILE_LANG_PITCH)
+    for section_index, (title, items) in enumerate(sides):
+        top_y += MOBILE_SECTION_GAP
+        # Garis tipis antar section menggantikan garis vertikal versi desktop.
+        parts.append(
+            f'<line x1="{x}" y1="{top_y - 2:.1f}" x2="{x + width}" y2="{top_y - 2:.1f}" '
+            f'stroke="{theme["border"]}" stroke-width="1"/>'
+        )
+        top_y += 22
+        parts.append(render_side_section(theme, x, width, top_y, title, items,
+                                         MOBILE_NAME_MAX + 8, 200 + 240 * section_index))
+        top_y += side_section_height(len(items))
+
+    height = round(top_y + MOBILE_PAD + 8)
+    return wrap_svg(theme, MOBILE_WIDTH, height, MOBILE_PAD, subtitle, "\n  ".join(parts))
 
 
 def main() -> None:
     data = fetch_stats()
     os.makedirs(OUT_DIR, exist_ok=True)
-    for theme_name in THEMES:
-        path = os.path.join(OUT_DIR, f"wakatime-{theme_name}.svg")
-        with open(path, "w", encoding="utf-8") as file:
-            file.write(build_card(data, theme_name))
-        print("Tersimpan:", path)
+    builders = {"": build_card, "-mobile": build_mobile_card}
+    for suffix, builder in builders.items():
+        for theme_name in THEMES:
+            path = os.path.join(OUT_DIR, f"wakatime-{theme_name}{suffix}.svg")
+            with open(path, "w", encoding="utf-8") as file:
+                file.write(builder(data, theme_name))
+            print("Tersimpan:", path)
 
 
 if __name__ == "__main__":

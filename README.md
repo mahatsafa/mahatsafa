@@ -90,6 +90,8 @@ See all my certifications on my portfolio:
 
 <a href="https://gustomahatsafa.vercel.app/activity">
   <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./profile/wakatime-dark-mobile.svg">
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./profile/wakatime-light-mobile.svg">
     <source media="(prefers-color-scheme: dark)" srcset="./profile/wakatime-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./profile/wakatime-light.svg">
     <img width="100%" src="./profile/wakatime-light.svg" alt="Coding activity from WakaTime: languages, editors, operating systems, and categories">
