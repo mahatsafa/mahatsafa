@@ -1,5 +1,6 @@
 <div align="center">
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://gustomahatsafa.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustomahatsafa/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahatsafa)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bmagustom@gmail.com)
@@ -28,19 +29,21 @@ I enjoy learning how systems work, solving problems, and documenting my progress
 
 ---
 
-### Featured Project
+### Featured Projects
 
+<a href="https://gustomahatsafa.vercel.app">
+  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" height="40" alt="Portfolio">
+</a>
+&nbsp;
 <a href="https://github.com/mahatsafa/ctf">
   <img src="https://img.shields.io/badge/CTF_Practice_%26_Writeups-181717?style=for-the-badge&logo=github&logoColor=white" height="40" alt="CTF Practice and Writeups">
 </a>
 
 <div align="justify">
 
-A collection of Capture The Flag challenges and writeups from my cybersecurity learning journey.
+**Portfolio** — my personal website with projects, certificates, and coding activity, live at [gustomahatsafa.vercel.app](https://gustomahatsafa.vercel.app).
 
-The repository contains hands-on practice across areas such as **digital forensics, steganography, file analysis, binary/hex inspection, and network analysis**.
-
-I use this repository to document my problem-solving process, tools, commands, and findings while working through CTF challenges.
+**CTF Practice & Writeups** — a collection of Capture The Flag challenges and writeups from my cybersecurity learning journey. It covers hands-on practice in **digital forensics, steganography, file analysis, binary/hex inspection, and network analysis**, and documents my problem-solving process, tools, commands, and findings.
 
 </div>
 
@@ -69,17 +72,36 @@ I use this repository to document my problem-solving process, tools, commands, a
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
 
-
 ---
 
 ### Certifications
 
-You can see my certifications on my [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustomahatsafa/)
+See all my certifications on my portfolio:
+
+[![Certificates](https://img.shields.io/badge/View_Certificates-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://gustomahatsafa.vercel.app/certificates)
 
 </div>
 
 ---
-<div  align="center">
+
+<div align="center">
+
+### Coding Activity
+
+<a href="https://gustomahatsafa.vercel.app/activity">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/wakatime-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./profile/wakatime-light.svg">
+    <img width="100%" src="./profile/wakatime-light.svg" alt="Coding activity from WakaTime: languages, editors, operating systems, and categories">
+  </picture>
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
 <details>
 <summary><strong>Currently Learning</strong></summary>
 
@@ -98,6 +120,8 @@ Python · Git &amp; GitHub · Visual Studio Code
 Cybersecurity fundamentals · CTF (Capture The Flag) · Digital forensics · Basic reverse engineering
 
 </details>
+
+</div>
 
 ---
 
@@ -126,33 +150,6 @@ Cybersecurity fundamentals · CTF (Capture The Flag) · Digital forensics · Bas
 
 <img width="100%" src="./profile/activity-graph.svg" alt="Activity Graph">
 
-</div>
-
-<!-- ... blok dual theme kamu tetap sama, nggak perlu diubah ... -->
-
-</details>
-
-</div>
-
----
-
-<div align="center">
-
-<details>
-<summary><strong>Coding Activity</strong></summary>
-
-<br>
-
-<a href="https://wakatime.com/@df780e5a-a48f-42f3-82bb-25736a3f0c57">
-  <img width="100%" src="./profile/wakatime-top-3.svg" alt="WakaTime Top 3">
-</a>
-
-<br><br>
-
-<a href="https://wakatime.com/@df780e5a-a48f-42f3-82bb-25736a3f0c57">
-  <img width="100%" src="./profile/wakatime-all.svg" alt="WakaTime Full Breakdown">
-</a>
-
 </details>
 
 </div>
@@ -163,6 +160,7 @@ Cybersecurity fundamentals · CTF (Capture The Flag) · Digital forensics · Bas
 
 ### Connect with Me
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://gustomahatsafa.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustomahatsafa/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahatsafa)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bmagustom@gmail.com)
@@ -170,20 +168,6 @@ Cybersecurity fundamentals · CTF (Capture The Flag) · Digital forensics · Bas
 [![Chess.com](https://img.shields.io/badge/Chess.com-81B64C?style=for-the-badge&logo=chessdotcom&logoColor=white)](https://www.chess.com/member/mahatsafa)
 
 <img src="https://komarev.com/ghpvc/?username=mahatsafa&label=Profile%20Views&style=for-the-badge" alt="Profile Views">
-
-</div>
-
----
-
-<div align="center">
-
-### Live Portfolio
-
-<!-- PORTFOLIO_URL_START -->
-[**Click here to open Portfolio →**](https://substances-sensors-hammer-maui.trycloudflare.com)
-<!-- PORTFOLIO_URL_END -->
-
-<sub><i>URL updates automatically whenever the server restarts.</i></sub>
 
 </div>
 
