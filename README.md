@@ -86,7 +86,10 @@ See all my certifications on my portfolio:
 
 <div align="center">
 
-### Coding Activity
+<details>
+<summary><strong>Coding Activity</strong></summary>
+
+<br>
 
 <a href="https://gustomahatsafa.vercel.app/activity">
   <picture>
@@ -97,6 +100,8 @@ See all my certifications on my portfolio:
     <img width="100%" src="./profile/wakatime-light.svg" alt="Coding activity from WakaTime: languages, editors, operating systems, and categories">
   </picture>
 </a>
+
+</details>
 
 </div>
 
@@ -138,6 +143,9 @@ Cybersecurity fundamentals · CTF (Capture The Flag) · Digital forensics · Bas
 <p align="center">
   <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" height="56" alt="YOLO">
   <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" height="56" alt="Quickdraw">
+  <a href="https://github.com/mahatsafa?tab=achievements&achievement=pull-shark">
+    <img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" height="56" alt="Pull Shark">
+  </a>
 </p>
 
 <br>
