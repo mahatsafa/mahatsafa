@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="521" viewBox="0 0 840 521" role="img" aria-labelledby="title">
-  <title id="title">Coding activity: WakaTime · all time · 12 hrs 44 mins total</title>
+  <title id="title">Coding activity: WakaTime · all time · 13 hrs 24 mins total</title>
   <style>
     .sans { font-family: ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
@@ -31,7 +31,7 @@
     <path d="M41 37 V42 L44.5 44.5"/>
   </g>
   <text class="sans title" x="60" y="48">Coding activity</text>
-  <text class="mono subtitle" x="32" y="74">WakaTime · all time · 12 hrs 44 mins total</text>
+  <text class="mono subtitle" x="32" y="74">WakaTime · all time · 13 hrs 24 mins total</text>
   <circle cx="792" cy="48" r="16" fill="none" stroke="#e5e5e5" stroke-width="1"/>
   <path d="M788 52 L796 44 M789.5 44 H796 V50.5"
         fill="none" stroke="#0a0a0a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
@@ -40,38 +40,38 @@
   <text class="sans label" x="32" y="132.0">LANGUAGES</text>
   <text class="mono rank" x="32" y="162.0">1</text>
   <text class="sans lang" x="56" y="162.0">Text</text>
-  <text class="sans pct" x="488" y="162.0" text-anchor="end">45.1%</text>
+  <text class="sans pct" x="488" y="162.0" text-anchor="end">42.9%</text>
   <text class="mono dur" x="430" y="162.0" text-anchor="end">5 hrs 45 mins</text>
-  <rect x="56" y="174.0" width="432" height="6" rx="3.0" fill="#f0f0f0"/><rect class="bar" style="animation-delay:0ms" x="56" y="174.0" width="195.0" height="6" rx="3.0" fill="#0a0a0a"/>
+  <rect x="56" y="174.0" width="432" height="6" rx="3.0" fill="#f0f0f0"/><rect class="bar" style="animation-delay:0ms" x="56" y="174.0" width="185.2" height="6" rx="3.0" fill="#0a0a0a"/>
   <text class="mono rank" x="32" y="223.8">2</text>
   <text class="sans lang" x="56" y="223.8">HTML</text>
   <text class="sans pct" x="488" y="223.8" text-anchor="end">27.3%</text>
-  <text class="mono dur" x="430" y="223.8" text-anchor="end">3 hrs 28 mins</text>
-  <rect x="56" y="235.8" width="432" height="6" rx="3.0" fill="#f0f0f0"/><rect class="bar" style="animation-delay:80ms" x="56" y="235.8" width="118.0" height="6" rx="3.0" fill="#0a0a0a"/>
+  <text class="mono dur" x="430" y="223.8" text-anchor="end">3 hrs 39 mins</text>
+  <rect x="56" y="235.8" width="432" height="6" rx="3.0" fill="#f0f0f0"/><rect class="bar" style="animation-delay:80ms" x="56" y="235.8" width="117.9" height="6" rx="3.0" fill="#0a0a0a"/>
   <text class="mono rank" x="32" y="285.6">3</text>
   <text class="sans lang" x="56" y="285.6">Python</text>
-  <text class="sans pct" x="488" y="285.6" text-anchor="end">12.5%</text>
+  <text class="sans pct" x="488" y="285.6" text-anchor="end">11.8%</text>
   <text class="mono dur" x="430" y="285.6" text-anchor="end">1 hr 35 mins</text>
-  <rect x="56" y="297.6" width="432" height="6" rx="3.0" fill="#f0f0f0"/><rect class="bar" style="animation-delay:160ms" x="56" y="297.6" width="53.8" height="6" rx="3.0" fill="#0a0a0a"/>
+  <rect x="56" y="297.6" width="432" height="6" rx="3.0" fill="#f0f0f0"/><rect class="bar" style="animation-delay:160ms" x="56" y="297.6" width="51.1" height="6" rx="3.0" fill="#0a0a0a"/>
   <text class="mono rank" x="32" y="347.4">4</text>
-  <text class="sans lang" x="56" y="347.4">Markdown</text>
-  <text class="sans pct" x="488" y="347.4" text-anchor="end">5.7%</text>
-  <text class="mono dur" x="430" y="347.4" text-anchor="end">43 mins</text>
-  <rect x="56" y="359.4" width="432" height="6" rx="3.0" fill="#f0f0f0"/><rect class="bar" style="animation-delay:240ms" x="56" y="359.4" width="24.8" height="6" rx="3.0" fill="#0a0a0a"/>
+  <text class="sans lang" x="56" y="347.4">CSS</text>
+  <text class="sans pct" x="488" y="347.4" text-anchor="end">7.3%</text>
+  <text class="mono dur" x="430" y="347.4" text-anchor="end">58 mins</text>
+  <rect x="56" y="359.4" width="432" height="6" rx="3.0" fill="#f0f0f0"/><rect class="bar" style="animation-delay:240ms" x="56" y="359.4" width="31.4" height="6" rx="3.0" fill="#0a0a0a"/>
   <text class="mono rank" x="32" y="409.2">5</text>
-  <text class="sans lang" x="56" y="409.2">CSS</text>
-  <text class="sans pct" x="488" y="409.2" text-anchor="end">3.8%</text>
-  <text class="mono dur" x="430" y="409.2" text-anchor="end">29 mins</text>
-  <rect x="56" y="421.2" width="432" height="6" rx="3.0" fill="#f0f0f0"/><rect class="bar" style="animation-delay:320ms" x="56" y="421.2" width="16.4" height="6" rx="3.0" fill="#0a0a0a"/>
+  <text class="sans lang" x="56" y="409.2">Markdown</text>
+  <text class="sans pct" x="488" y="409.2" text-anchor="end">5.5%</text>
+  <text class="mono dur" x="430" y="409.2" text-anchor="end">43 mins</text>
+  <rect x="56" y="421.2" width="432" height="6" rx="3.0" fill="#f0f0f0"/><rect class="bar" style="animation-delay:320ms" x="56" y="421.2" width="23.5" height="6" rx="3.0" fill="#0a0a0a"/>
   <text class="mono rank" x="32" y="471.0">6</text>
   <text class="sans lang" x="56" y="471.0">YAML</text>
-  <text class="sans pct" x="488" y="471.0" text-anchor="end">2.0%</text>
+  <text class="sans pct" x="488" y="471.0" text-anchor="end">1.9%</text>
   <text class="mono dur" x="430" y="471.0" text-anchor="end">15 mins</text>
-  <rect x="56" y="483.0" width="432" height="6" rx="3.0" fill="#f0f0f0"/><rect class="bar" style="animation-delay:400ms" x="56" y="483.0" width="8.7" height="6" rx="3.0" fill="#0a0a0a"/>
+  <rect x="56" y="483.0" width="432" height="6" rx="3.0" fill="#f0f0f0"/><rect class="bar" style="animation-delay:400ms" x="56" y="483.0" width="8.3" height="6" rx="3.0" fill="#0a0a0a"/>
   <text class="sans label" x="552" y="132.0">EDITOR</text>
   <text class="sans item" x="552" y="160.0">VS Code</text>
-  <text class="mono pct-sm" x="808" y="160.0" text-anchor="end">98.9%</text>
-  <rect x="552" y="168.0" width="256" height="3" rx="1.5" fill="#f0f0f0"/><rect class="bar" style="animation-delay:200ms" x="552" y="168.0" width="253.3" height="3" rx="1.5" fill="#404040"/>
+  <text class="mono pct-sm" x="808" y="160.0" text-anchor="end">99.0%</text>
+  <rect x="552" y="168.0" width="256" height="3" rx="1.5" fill="#f0f0f0"/><rect class="bar" style="animation-delay:200ms" x="552" y="168.0" width="253.4" height="3" rx="1.5" fill="#404040"/>
   <text class="sans item" x="552" y="190.0">Unknown Editor</text>
   <text class="mono pct-sm" x="808" y="190.0" text-anchor="end">0.7%</text>
   <rect x="552" y="198.0" width="256" height="3" rx="1.5" fill="#f0f0f0"/><rect class="bar" style="animation-delay:280ms" x="552" y="198.0" width="2.0" height="3" rx="1.5" fill="#404040"/>
@@ -80,21 +80,21 @@
   <rect x="552" y="228.0" width="256" height="3" rx="1.5" fill="#f0f0f0"/><rect class="bar" style="animation-delay:360ms" x="552" y="228.0" width="2.0" height="3" rx="1.5" fill="#404040"/>
   <text class="sans label" x="552" y="261.0">OPERATING SYSTEM</text>
   <text class="sans item" x="552" y="289.0">Windows</text>
-  <text class="mono pct-sm" x="808" y="289.0" text-anchor="end">98.9%</text>
-  <rect x="552" y="297.0" width="256" height="3" rx="1.5" fill="#f0f0f0"/><rect class="bar" style="animation-delay:440ms" x="552" y="297.0" width="253.3" height="3" rx="1.5" fill="#404040"/>
+  <text class="mono pct-sm" x="808" y="289.0" text-anchor="end">99.0%</text>
+  <rect x="552" y="297.0" width="256" height="3" rx="1.5" fill="#f0f0f0"/><rect class="bar" style="animation-delay:440ms" x="552" y="297.0" width="253.4" height="3" rx="1.5" fill="#404040"/>
   <text class="sans item" x="552" y="319.0">Linux</text>
-  <text class="mono pct-sm" x="808" y="319.0" text-anchor="end">0.7%</text>
+  <text class="mono pct-sm" x="808" y="319.0" text-anchor="end">0.6%</text>
   <rect x="552" y="327.0" width="256" height="3" rx="1.5" fill="#f0f0f0"/><rect class="bar" style="animation-delay:520ms" x="552" y="327.0" width="2.0" height="3" rx="1.5" fill="#404040"/>
   <text class="sans item" x="552" y="349.0">WSL</text>
   <text class="mono pct-sm" x="808" y="349.0" text-anchor="end">0.4%</text>
   <rect x="552" y="357.0" width="256" height="3" rx="1.5" fill="#f0f0f0"/><rect class="bar" style="animation-delay:600ms" x="552" y="357.0" width="2.0" height="3" rx="1.5" fill="#404040"/>
   <text class="sans label" x="552" y="390.0">CATEGORY</text>
   <text class="sans item" x="552" y="418.0">Coding</text>
-  <text class="mono pct-sm" x="808" y="418.0" text-anchor="end">93.8%</text>
-  <rect x="552" y="426.0" width="256" height="3" rx="1.5" fill="#f0f0f0"/><rect class="bar" style="animation-delay:680ms" x="552" y="426.0" width="240.2" height="3" rx="1.5" fill="#404040"/>
+  <text class="mono pct-sm" x="808" y="418.0" text-anchor="end">94.1%</text>
+  <rect x="552" y="426.0" width="256" height="3" rx="1.5" fill="#f0f0f0"/><rect class="bar" style="animation-delay:680ms" x="552" y="426.0" width="241.0" height="3" rx="1.5" fill="#404040"/>
   <text class="sans item" x="552" y="448.0">Writing Docs</text>
-  <text class="mono pct-sm" x="808" y="448.0" text-anchor="end">5.7%</text>
-  <rect x="552" y="456.0" width="256" height="3" rx="1.5" fill="#f0f0f0"/><rect class="bar" style="animation-delay:760ms" x="552" y="456.0" width="14.7" height="3" rx="1.5" fill="#404040"/>
+  <text class="mono pct-sm" x="808" y="448.0" text-anchor="end">5.5%</text>
+  <rect x="552" y="456.0" width="256" height="3" rx="1.5" fill="#f0f0f0"/><rect class="bar" style="animation-delay:760ms" x="552" y="456.0" width="14.0" height="3" rx="1.5" fill="#404040"/>
   <text class="sans item" x="552" y="478.0">Writing Tests</text>
   <text class="mono pct-sm" x="808" y="478.0" text-anchor="end">0.4%</text>
   <rect x="552" y="486.0" width="256" height="3" rx="1.5" fill="#f0f0f0"/><rect class="bar" style="animation-delay:840ms" x="552" y="486.0" width="2.0" height="3" rx="1.5" fill="#404040"/>
