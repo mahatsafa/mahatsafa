@@ -57,8 +57,8 @@ I enjoy learning how systems work, solving problems, and documenting my progress
 
 **Operating Systems**
 
-<img src="https://skillicons.dev/icons?i=windows,linux,kali,debian" height="48" alt="Operating Systems">
-<img src="https://cdn.simpleicons.org/centos/262577" height="48" width="48" alt="CentOS">
+<img src="https://skillicons.dev/icons?i=windows,linux" height="48" alt="Windows & Linux">
+<img src="https://github.com/microsoft/WSL/raw/master/Images/Square44x44Logo.targetsize-256.png" height="48" alt="WSL">
 
 **Networking & Forensics Tools**
 
