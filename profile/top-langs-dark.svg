@@ -180,7 +180,7 @@
           data-testid="lang-progress"
           x="242.21"
           y="0"
-          width="17.78"
+          width="17.79"
           height="8"
           fill="#f1e05a"
         />
@@ -226,7 +226,7 @@
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#f1e05a" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        JavaScript 3.11%
+        JavaScript 3.12%
       </text>
     </g>
   </g></g>
